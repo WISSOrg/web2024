@@ -1,0 +1,22 @@
+- category_name: 著者の方へ
+  pages:
+  - name: 発表募集
+    url: "./call-for-papers.html"
+  - name:  -　登壇発表募集
+    url: "./cfp-oral.html"
+  - name:  -　国際学会招待募集
+    url: "./cfp-international.html"
+  - name:  -　デモ発表募集
+    url: "./cfp-demo.html"
+  - name: 査読方針
+    url: "./review-policy.html"
+  label: for-authors
+- category_name: WISSについて
+  pages:
+  - name: WISS委員一覧
+    url: "./committee.html"
+  - name: 公式ツイッター
+    url: "https://twitter.com/wiss_official"
+  - name: 過去のWISS
+    url: "./archive.html"
+  label: about-wiss
