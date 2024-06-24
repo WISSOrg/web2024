@@ -11,9 +11,9 @@
 [登壇発表](./cfp-oral.html)　 |2024/07/01| **2024/08/31(土)** | 2024/10/18
 [国際学会招待発表](./cfp-international.html) |2024/07/01| **2024/08/31(土)** | 2024/10/18
 [デモ発表](./cfp-demo.html)  |2024/09/01 | **2024/10/31(木)** | 2024/11/08
-WISS Design (準備中) |2024/07/01 | **2024/08/31(土)** |  2024/10/18
-WISS Challenge (準備中) |2024/09/01 |**2024/10/31(木)** | 2024/11/08
-学生ボランティア (準備中) |2024/10/24| **2024/10/31(木)** | 2024/11/08
+[WISS Design](./cfp-design.html) |2024/07/01 | **2024/08/31(土)** |  2024/10/18
+[WISS Challenge](./cfp-challenge.html)  |2024/09/01 |**2024/10/31(木)** | 2024/11/08
+[学生ボランティア](./call-for-studentvolunteer.html) |2024/10/24| **2024/10/31(木)** | 2024/11/08
 
 <!--[WISS Design](./cfp-design.html)
 [WISS Challenge](./cfp-challenge.html) 
@@ -56,9 +56,9 @@ WISS Challenge (準備中) |2024/09/01 |**2024/10/31(木)** | 2024/11/08
 ## その他の募集
 
 
-- WISS Challenge（準備中）: 学会をサポートしたり，議論の刺激となるようなシステムの提案を募集します．
-- WISS Design（準備中）: WISS2024のロゴやバナー，予稿集の表紙等に利用可能なデザインを募集します．
-- 学生ボランティア（準備中）:  会議の運営をサポートする学生ボランティアを募集します．
+- [WISS Challenge](./cfp-challenge.html) : 学会をサポートしたり，議論の刺激となるようなシステムの提案を募集します．
+- [WISS Design](./cfp-design.html): WISS2024のロゴやバナー，予稿集の表紙等に利用可能なデザインを募集します．
+- [学生ボランティア](./call-for-studentvolunteer.html):  会議の運営をサポートする学生ボランティアを募集します．
 
 <!--[WISS Design](./cfp-design.html)
 [WISS Challenge](./cfp-challenge.html) 
@@ -82,11 +82,11 @@ WISS Challenge (準備中) |2024/09/01 |**2024/10/31(木)** | 2024/11/08
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMDE4OTQ5NCwyMjA0OTA3MTEsLTU5NT
-I4MDE3MSwxMjE0NzA4NTg3LC0yMDk4OTc4OTYwLC05MzE0NjQ1
-NjUsMzIzNjcyNzA1LDg0OTU3NjIwMCwzMDcwNjg1OTEsLTQ0Mj
-E1NDcyMCwxMTQyMjIwMjExLDE4NzI0ODAwODksMTgwOTAzMjU0
-MywxNzcyMzA3MTg1LDgxOTQ4MDI2OSwtMTU5NTAxMDA5MywtOT
-c1NzMwMjQ0LC0yMDAwOTQxMzA2LDQyOTEzMzM5MSwtOTQ0MDY2
-NDI4XX0=
+eyJoaXN0b3J5IjpbMTgzNDQ0NzE3MCwyMDEwMTg5NDk0LDIyMD
+Q5MDcxMSwtNTk1MjgwMTcxLDEyMTQ3MDg1ODcsLTIwOTg5Nzg5
+NjAsLTkzMTQ2NDU2NSwzMjM2NzI3MDUsODQ5NTc2MjAwLDMwNz
+A2ODU5MSwtNDQyMTU0NzIwLDExNDIyMjAyMTEsMTg3MjQ4MDA4
+OSwxODA5MDMyNTQzLDE3NzIzMDcxODUsODE5NDgwMjY5LC0xNT
+k1MDEwMDkzLC05NzU3MzAyNDQsLTIwMDA5NDEzMDYsNDI5MTMz
+MzkxXX0=
 -->

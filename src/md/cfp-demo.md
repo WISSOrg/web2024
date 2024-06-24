@@ -50,7 +50,6 @@
 <!-- - [https://confmanex.wiss.org/](https://confmanex.wiss.org/) -->
 
 
-
 <a id="デモ発表の諸注意"></a>
 ## デモ発表の諸注意
 ### 投稿にあたって
@@ -62,6 +61,11 @@
 	- 今年度は，全ての登壇発表者（採択・不採択問わず）にデモ発表への優先投稿期間を設けるため，投稿枠が途中で増加する可能性があります．まずは是非，登壇発表への投稿をご検討ください．詳細は，[スケジュール](#スケジュール)をご確認ください．
 - 学会発表である以上，単に思いつきだけでなく，議論に値するだけの材料・根拠を揃えた上で投稿してください．**プログラム委員会が審査し，内容が不適切だと判断した場合は，不採択となる可能性があります．**
 - 論文本体とは別に，「この研究はどういう未来を切り拓くのか」について，著者の視点からアピールしたい点があれば，「未来ビジョン」とした節を設けて自由に議論してください．
+####  WISS Challengeの活用
+ - WISS2024では，[WISS Challenge](./call-for-challenge.html)を実施します．作ったシステムを150名以上の学会参加者を対象に実際に運用することができます． 
+ - 登壇発表やデモ発表に投稿した論文をフォーマットの修正なしにそのままご投稿いただけます． 
+ - 多くの参加者からのフィードバックが期待できます．積極的に[WISS Challenge](./call-for-challenge.html)にもご投稿ください．
+
 
 ### 発表にあたって
 - 採択されたデモ発表論文はWeb予稿集に掲載され，ワークショップ開始の1週間前にはWeb上で一般公開されます．論文は**non-archival** であり，**将来の査読付き国内学会・国際学会・論文誌への投稿を防げない**ものとします．
@@ -86,11 +90,11 @@ WISS2024出版担当:  2024pub at wiss.org
 2024 at wiss.org
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzA5NDA4OTUsMjc4NzQ1OTY5LC0yMT
-AyNjQyNzUxLDE2MDg2NDk0MywyNzI4NDEzMTAsMTIzMDkwNjMz
-MSwxMjA1Njc4ODMsLTEzODAxODQzOSwtMjEyMjgyNjYzMSw2MT
-Q1NDM0OTksNDIyMjA4NDQ5LDE1NjM0OTcxNzEsLTEyMTY4NzAx
-MiwtNjY3MDMxNDYwLC0zMTQyMzI3NTIsLTE1MDc4NjE0NDMsMT
-A0MDQ3ODQ0OSwtMTcxOTU5MDg1Niw5NzQ4MTYxMjIsMTc3OTgw
-MTcyXX0=
+eyJoaXN0b3J5IjpbMzc1OTAyMzE0LC0xNTcwOTQwODk1LDI3OD
+c0NTk2OSwtMjEwMjY0Mjc1MSwxNjA4NjQ5NDMsMjcyODQxMzEw
+LDEyMzA5MDYzMzEsMTIwNTY3ODgzLC0xMzgwMTg0MzksLTIxMj
+I4MjY2MzEsNjE0NTQzNDk5LDQyMjIwODQ0OSwxNTYzNDk3MTcx
+LC0xMjE2ODcwMTIsLTY2NzAzMTQ2MCwtMzE0MjMyNzUyLC0xNT
+A3ODYxNDQzLDEwNDA0Nzg0NDksLTE3MTk1OTA4NTYsOTc0ODE2
+MTIyXX0=
 -->

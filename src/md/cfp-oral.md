@@ -86,9 +86,13 @@
 
 #### 未来ビジョン
 - 論文本体とは別に，「この研究はどういう未来を切り拓くのか」について，著者の視点からアピールしたい点があれば，「未来ビジョン」という節を設けて自由に議論してください．本文のページ数制限には影響しません．ただし，査読にあたっては論文本体のみを対象とし，未来ビジョン部分は対象外とします．
-
 #### 推薦論文
 - 採択された論文の中から，雑誌論文としてふさわしいと判断されるものを，ソフトウェア科学会会誌「コンピュータソフトウェア」へ推薦論文として推薦します．投稿時期・出版時期については調整中ですが，WISS2024開催後できるだけ速やかに対象著者にご連絡します．
+
+####  WISS Challengeの活用
+ - WISS2024では，[WISS Challenge](./call-for-challenge.html)を実施します．作ったシステムを150名以上の学会参加者を対象に実際に運用することができます． 
+ - 登壇発表やデモ発表に投稿した論文をフォーマットの修正なしにそのままご投稿いただけます． 
+ - 多くの参加者からのフィードバックが期待できます．積極的に[WISS Challenge](./call-for-challenge.html)にもご投稿ください．
 
 #### その他
 - 既発表または発表予定（採録済）である **投稿者自身の関連発表については本文中にて言及し参照文献を掲載** してください．意図的な不掲載は，不正と見做される場合があります．
@@ -118,11 +122,11 @@ WISS2024出版担当: 2024pub at wiss.org
 2024 at wiss.org
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4ODgxMDY1MiwtNDc2MTUzOTEsMTc3Mj
-A4MjEyMSwtMTY0NzMxMzMwLDEwMDg2OTY4NTQsLTEyNjI0MjA0
-NzksMTk0NjUxODA5MSwtMTIyMDE2NDg4MSw4NTMwNDg1OSwtMT
-kzMTIzMTY3MSw4MTc1NDc2MjksMTE3MzQ1NTM3MiwxNTU5NDgz
-ODcxLDE1MjQ4Njk2NjIsLTExMDMyOTY1NTQsLTEzNzk4OTYxMz
-IsMTUyNTEzOTU2MiwxNDE5MjM2Njk2LDY0MjEzMDI4MiwtOTIy
-NTAxODg0XX0=
+eyJoaXN0b3J5IjpbMTYwNjg3MDk0OSwxNzg4ODEwNjUyLC00Nz
+YxNTM5MSwxNzcyMDgyMTIxLC0xNjQ3MzEzMzAsMTAwODY5Njg1
+NCwtMTI2MjQyMDQ3OSwxOTQ2NTE4MDkxLC0xMjIwMTY0ODgxLD
+g1MzA0ODU5LC0xOTMxMjMxNjcxLDgxNzU0NzYyOSwxMTczNDU1
+MzcyLDE1NTk0ODM4NzEsMTUyNDg2OTY2MiwtMTEwMzI5NjU1NC
+wtMTM3OTg5NjEzMiwxNTI1MTM5NTYyLDE0MTkyMzY2OTYsNjQy
+MTMwMjgyXX0=
 -->

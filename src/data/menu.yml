@@ -8,6 +8,12 @@
     url: "./cfp-international.html"
   - name:  -　デモ発表募集
     url: "./cfp-demo.html"
+  - name:  -　WISS Challenge
+    url: "./call-for-challenge.html"
+  - name:  -　WISS Design
+    url: "./call-for-design.html"
+  - name:  -　学生ボランティア募集
+    url: "./call-for-studentvolunteer.html"
   - name: 査読方針
     url: "./review-policy.html"
   label: for-authors
