@@ -18,7 +18,7 @@
 2024年12月04日(水)	|論文PDF公開（採録時コメント等の一部査読コメントも公開）**※会期1週間前に公開**
 2024年12月11日-13日 | WISS2024 開催
 
-
+<a id="提出物"></a>
 ## 提出物
 - **論文（必須）**
 	-  [論文テンプレート](#登壇発表用論文テンプレート)を用いてLaTeXまたはWordで執筆し，PDF形式（ファイルサイズ20 MB以下）で提出してください．
@@ -56,8 +56,7 @@
 (著者名及び所属を入れてください．Macご利用の方で，コンパイルに失敗する場合はソースコードをutf8に変更して試してみてください)-->
 
 ## 投稿システム
-- (準備中)
-<!-- - [https://confmanex.wiss.org/](https://confmanex.wiss.org/) -->
+- [https://confmanex.wiss.org/](https://confmanex.wiss.org/) 
 
 
 
@@ -122,11 +121,11 @@ WISS2024出版担当: 2024pub at wiss.org
 2024 at wiss.org
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjg3MDk0OSwxNzg4ODEwNjUyLC00Nz
-YxNTM5MSwxNzcyMDgyMTIxLC0xNjQ3MzEzMzAsMTAwODY5Njg1
-NCwtMTI2MjQyMDQ3OSwxOTQ2NTE4MDkxLC0xMjIwMTY0ODgxLD
-g1MzA0ODU5LC0xOTMxMjMxNjcxLDgxNzU0NzYyOSwxMTczNDU1
-MzcyLDE1NTk0ODM4NzEsMTUyNDg2OTY2MiwtMTEwMzI5NjU1NC
-wtMTM3OTg5NjEzMiwxNTI1MTM5NTYyLDE0MTkyMzY2OTYsNjQy
-MTMwMjgyXX0=
+eyJoaXN0b3J5IjpbMTE1Mzc2MzY2NCwtNzU0OTI5OTQ2LDE3OD
+g4MTA2NTIsLTQ3NjE1MzkxLDE3NzIwODIxMjEsLTE2NDczMTMz
+MCwxMDA4Njk2ODU0LC0xMjYyNDIwNDc5LDE5NDY1MTgwOTEsLT
+EyMjAxNjQ4ODEsODUzMDQ4NTksLTE5MzEyMzE2NzEsODE3NTQ3
+NjI5LDExNzM0NTUzNzIsMTU1OTQ4Mzg3MSwxNTI0ODY5NjYyLC
+0xMTAzMjk2NTU0LC0xMzc5ODk2MTMyLDE1MjUxMzk1NjIsMTQx
+OTIzNjY5Nl19
 -->

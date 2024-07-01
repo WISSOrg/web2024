@@ -22,6 +22,7 @@ CHI/UISTをはじめとするHCI分野の国際会議予稿集および国際論
 2024年12月04日(水)|	論文PDF公開　**※会期1週間前に公開**
 2024年12月11日-13日 | WISS2024 開催
  
+ <a id="提出物"></a>
 ## 提出物
 - **基本情報（必須）**
 	- 投稿システムより「著者」，「論文タイトル」，「国際学会・国際論文誌の名称・略称」「概要（日本語，発表予定の内容を200-400字程度）」を入力してください．
@@ -39,16 +40,16 @@ CHI/UISTをはじめとするHCI分野の国際会議予稿集および国際論
 <a id="国際学会招待発表論文テンプレート"></a>
 ### 国際学会招待発表論文テンプレート
 - [国際学会招待発表論文テンプレート（MS Word）](./downloads/WISS_Template_2024_0529_word-invited.docx) 
-- 国際学会招待発表論文テンプレート（Overleaf）（準備中）
+- [国際学会招待発表論文テンプレート（Overleaf）](https://www.overleaf.com/latex/templates/wiss2024-template-guo-ji-xue-hui-zhao-dai-fa-biao-yong/vyvbvpbbywcg)
 - [国際学会招待発表論文テンプレート（LaTeX2e）](./downloads/WISS_Template_2024_0610_latex-invited.zip)
 	- 参考:  [WISS2024 論文よくあるミス一覧](./downloads/WISSTemplate_2024_0527_errors.pdf)
 <!--
-#- [国際学会招待発表論文テンプレート（Overleaf）](https://www.overleaf.com/latex/templates/wiss2024-template-guo-ji-xue-hui-guo-ji-lun-wen-zhi-cai-ze-lun-wen-fa-biao-yong/qtcbtpzjprjf)
+#
 -->
 
 ## 投稿システム
-- (準備中)
-<!-- - [https://confmanex.wiss.org/](https://confmanex.wiss.org/) -->
+
+- [https://confmanex.wiss.org/](https://confmanex.wiss.org/) 
 
 <a id="国際学会招待発表の諸注意"></a>
 ## 国際学会招待発表の諸注意
@@ -70,11 +71,11 @@ WISS2024出版担当  2024pub at wiss.org
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyODc0NjE2MiwxOTc3MjYzMTQ2LC0xOT
-YxNjA2NDc5LC0xMjIwODc1MzIxLDE0MjA3NzQ1NzQsNDY5MDAw
-MTIyLDE2MTE4NzczMDgsLTM4NjcyNTc3NCwxMDA4MjAyNDQ0LC
-0zMTQ0MzcwNTYsLTE3MTcyMzEwMzYsMTg5MzQwNDcyNSwtNzg2
-MDEyMDgsMTEwODU4OTE0OSwyMDQxNzk5MjA1LDEyMDQ1NDg1ND
-EsLTExOTQ3NzQzMjgsLTE5NjIyNzMyOTYsMTY2MDc4NDkzNiwt
-MTE5MTgxODA4Nl19
+eyJoaXN0b3J5IjpbODQ5MzM3MzkwLDEwNzc2NzAwMzgsMTEzNz
+AxODcxOSwtNDI4NzQ2MTYyLDE5NzcyNjMxNDYsLTE5NjE2MDY0
+NzksLTEyMjA4NzUzMjEsMTQyMDc3NDU3NCw0NjkwMDAxMjIsMT
+YxMTg3NzMwOCwtMzg2NzI1Nzc0LDEwMDgyMDI0NDQsLTMxNDQz
+NzA1NiwtMTcxNzIzMTAzNiwxODkzNDA0NzI1LC03ODYwMTIwOC
+wxMTA4NTg5MTQ5LDIwNDE3OTkyMDUsMTIwNDU0ODU0MSwtMTE5
+NDc3NDMyOF19
 -->

@@ -11,18 +11,13 @@
 [登壇発表](./cfp-oral.html)　 |2024/07/01| **2024/08/31(土)** | 2024/10/18
 [国際学会招待発表](./cfp-international.html) |2024/07/01| **2024/08/31(土)** | 2024/10/18
 [デモ発表](./cfp-demo.html)  |2024/09/01 | **2024/10/31(木)** | 2024/11/08
-[WISS Design](./call-for-design.html) |2024/07/01 | **2024/08/31(土)** |  2024/10/18
 [WISS Challenge](./call-for-challenge.html)  |2024/09/01 |**2024/10/31(木)** | 2024/11/08
+[WISS Design](./call-for-design.html) |2024/07/01 | **2024/08/31(土)** |  2024/10/18
 [学生ボランティア](./call-for-studentvolunteer.html) |2024/10/24| **2024/10/31(木)** | 2024/11/08
 
 
 ## Call For Papers
-<!--
-	★塚田メモ（後で消す）キーワードをアップデートしようとUIST，TEI等いくつかの国際会議を見てみたが，
-	 そもそも分野のキーワード一覧は出していないようだった．
-	 後藤さんにもコメント頂いた通り，「未来を切り開くシステムなら何でもOK」として，書かない方向はどうか？
-	（一文目に「ハードウェア」「広く」という言葉だけ追加．）
--->
+
 未来を切り拓くような新しいインタラクティブなシステム（ソフトウェア・ハードウェア）に関する研究成果についての発表を広く募集します．
 
 例えば，以下のような分野の発表を対象とします．
@@ -47,7 +42,6 @@
 
 予稿集はWeb上で公開されます．論文の性格からまとめますと，論文査読のある登壇発表と，採否はあっても論文査読のない国際学会招待発表およびデモ発表は，明確に区別されます．
 
-<!--論文の性格としては， **登壇発表（査読あり）はArchival，国際学会招待発表およびデモ発表はNon-archivalであり，プログラム上で明確に区別されます** ．-->
 
 
 ## その他の募集
@@ -56,6 +50,7 @@
 - [WISS Challenge](./call-for-challenge.html) : 学会をサポートしたり，議論の刺激となるようなシステムの提案を募集します．
 - [WISS Design](./call-for-design.html): WISS2024のロゴやバナー，予稿集の表紙等に利用可能なデザインを募集します．
 - [学生ボランティア](./call-for-studentvolunteer.html):  会議の運営をサポートする学生ボランティアを募集します．
+- [企業スポンサー](./call-for-sponsor.html): 会議に協賛頂ける企業スポンサー様を募集します．
 
 <!--
 ## 諸注意
@@ -74,11 +69,11 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4OTQwODgzMCwyMDEwMTg5NDk0LDIyMD
-Q5MDcxMSwtNTk1MjgwMTcxLDEyMTQ3MDg1ODcsLTIwOTg5Nzg5
-NjAsLTkzMTQ2NDU2NSwzMjM2NzI3MDUsODQ5NTc2MjAwLDMwNz
-A2ODU5MSwtNDQyMTU0NzIwLDExNDIyMjAyMTEsMTg3MjQ4MDA4
-OSwxODA5MDMyNTQzLDE3NzIzMDcxODUsODE5NDgwMjY5LC0xNT
-k1MDEwMDkzLC05NzU3MzAyNDQsLTIwMDA5NDEzMDYsNDI5MTMz
-MzkxXX0=
+eyJoaXN0b3J5IjpbMTUxNzg5NTEwMSw4NDQ5OTg5NywxMjg5ND
+A4ODMwLDIwMTAxODk0OTQsMjIwNDkwNzExLC01OTUyODAxNzEs
+MTIxNDcwODU4NywtMjA5ODk3ODk2MCwtOTMxNDY0NTY1LDMyMz
+Y3MjcwNSw4NDk1NzYyMDAsMzA3MDY4NTkxLC00NDIxNTQ3MjAs
+MTE0MjIyMDIxMSwxODcyNDgwMDg5LDE4MDkwMzI1NDMsMTc3Mj
+MwNzE4NSw4MTk0ODAyNjksLTE1OTUwMTAwOTMsLTk3NTczMDI0
+NF19
 -->

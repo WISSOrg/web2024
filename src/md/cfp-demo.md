@@ -24,6 +24,7 @@
 2024年12月04日(水)	| 論文PDF公開 **※会議1週間前に公開**
 2024年12月11日-13日 | WISS2024 開催
 
+<a id="提出物"></a>
 ## 提出物
 - **論文（必須）**
 	-  [論文テンプレート](#デモ発表用論文テンプレート)を用いてLaTeXまたはWordで執筆し，PDF形式（ファイルサイズ20 MB以下）で提出してください ．
@@ -53,14 +54,13 @@
 <a id="デモ発表の諸注意"></a>
 ## デモ発表の諸注意
 ### 投稿にあたって
-<!--	★塚田メモ（後で消す）: 「原則として～」の項目は結構書き方が難しいのでコメント求む
-	（後藤さんの研究者倫理に訴えかける案を文章化してみたもの）
-	-->
+
 - デモ発表は，原則査読はありませんが，発表枠が限られているため，応募件数によっては早期に締め切る可能性があります．
 	- 原則として，投稿システムへの登録が早い順に受け付けていますが，近年論文が完成する前から登録を行って「投稿枠を押さえる」ようなケースが散見されます．このような行為は他の投稿者の迷惑となりますので，**論文が投稿可能な状態になってから（特に学生は一度は共著者のチェックを受けてから）の登録**をお願いいたします．
-	- 今年度は，全ての登壇発表者（採択・不採択問わず）にデモ発表への優先投稿期間を設けるため，投稿枠が途中で増加する可能性があります．まずは是非，登壇発表への投稿をご検討ください．詳細は，[スケジュール](#スケジュール)をご確認ください．
+	- 今年度は，全ての登壇発表者（採択・不採択問わず）にデモ発表への優先投稿期間を設け，登壇発表者の分のデモ投稿枠を一時的に確保しているため，**優先投稿期間が終了した後にデモ投稿枠が増加する可能性があります．** まずは是非，登壇発表への投稿をご検討ください．詳細は，[スケジュール](#スケジュール)をご確認ください．
 - 学会発表である以上，単に思いつきだけでなく，議論に値するだけの材料・根拠を揃えた上で投稿してください．**プログラム委員会が審査し，内容が不適切だと判断した場合は，不採択となる可能性があります．**
 - 論文本体とは別に，「この研究はどういう未来を切り拓くのか」について，著者の視点からアピールしたい点があれば，「未来ビジョン」とした節を設けて自由に議論してください．
+
 ####  WISS Challengeの活用
  - WISS2024では，[WISS Challenge](./call-for-challenge.html)を実施します．作ったシステムを150名以上の学会参加者を対象に実際に運用することができます． 
  - 登壇発表やデモ発表に投稿した論文をフォーマットの修正なしにそのままご投稿いただけます． 
@@ -90,11 +90,11 @@ WISS2024出版担当:  2024pub at wiss.org
 2024 at wiss.org
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1OTAyMzE0LC0xNTcwOTQwODk1LDI3OD
-c0NTk2OSwtMjEwMjY0Mjc1MSwxNjA4NjQ5NDMsMjcyODQxMzEw
-LDEyMzA5MDYzMzEsMTIwNTY3ODgzLC0xMzgwMTg0MzksLTIxMj
-I4MjY2MzEsNjE0NTQzNDk5LDQyMjIwODQ0OSwxNTYzNDk3MTcx
-LC0xMjE2ODcwMTIsLTY2NzAzMTQ2MCwtMzE0MjMyNzUyLC0xNT
-A3ODYxNDQzLDEwNDA0Nzg0NDksLTE3MTk1OTA4NTYsOTc0ODE2
-MTIyXX0=
+eyJoaXN0b3J5IjpbLTExNDU3MzM1MzksLTc0OTAzNDYzNSw0Nz
+IyNTg3NTksLTk3MzQzNjQ1NSwtMTU3MDk0MDg5NSwyNzg3NDU5
+NjksLTIxMDI2NDI3NTEsMTYwODY0OTQzLDI3Mjg0MTMxMCwxMj
+MwOTA2MzMxLDEyMDU2Nzg4MywtMTM4MDE4NDM5LC0yMTIyODI2
+NjMxLDYxNDU0MzQ5OSw0MjIyMDg0NDksMTU2MzQ5NzE3MSwtMT
+IxNjg3MDEyLC02NjcwMzE0NjAsLTMxNDIzMjc1MiwtMTUwNzg2
+MTQ0M119
 -->

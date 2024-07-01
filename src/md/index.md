@@ -5,7 +5,9 @@
 - 登壇発表投稿締切: 2024年08月31日(土)
 
 ----
-WISSは，インタラクティブシステムにおける未来を切り拓くような新しいアイデア・技術を議論するワークショップです．この分野において国内でもっともアクティブな学術会議のひとつであり，例年150名以上の参加者が朝から深夜まで活発で意義深い情報交換を行っています．さまざまなバックグラウンドをもった方々からの積極的な論文投稿及び参加をお待ちしています．募集形式を一覧で整理しておりますので，まずは[発表募集](./call-for-papers.html) をご覧ください．
+WISSは，インタラクティブシステムにおける未来を切り拓くような新しいアイデア・技術を議論するワークショップです．この分野において国内でもっともアクティブな学術会議のひとつであり，例年150名以上の参加者が朝から深夜まで活発で意義深い情報交換を行っています．さまざまなバックグラウンドをもった方々からの積極的な論文投稿及び参加をお待ちしています．
+
+募集形式を一覧で整理しておりますので，まずは **[発表募集](./call-for-papers.html)** をご覧ください．
 
 なお，本年は**現地のみの開催**を計画しています．
 <!--なお，本年は現地開催となります．COVID-19等の感染症の対策に関しては[こちら](./covid19d.html)をご覧ください．-->
@@ -39,7 +41,7 @@ WISSは，インタラクティブシステムにおける未来を切り拓く�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MDI0NzM4MCwtMTgwMjU5NDczMiwtMT
-cwNDQwNTkxMCwxMzA1MzI2NDU2LC0yMDQ3NzQyNiwtOTc0NDk0
-MzAyLC0xNjcwMzM2MTgxXX0=
+eyJoaXN0b3J5IjpbLTcwNDY3MTUwOCwxNzgwMjQ3MzgwLC0xOD
+AyNTk0NzMyLC0xNzA0NDA1OTEwLDEzMDUzMjY0NTYsLTIwNDc3
+NDI2LC05NzQ0OTQzMDIsLTE2NzAzMzYxODFdfQ==
 -->

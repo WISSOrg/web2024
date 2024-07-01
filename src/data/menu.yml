@@ -4,19 +4,24 @@
     url: "./call-for-papers.html"
   - name:  -　登壇発表募集
     url: "./cfp-oral.html"
-  - name:  -　国際学会招待募集
+  - name:  -　国際学会招待発表募集
     url: "./cfp-international.html"
   - name:  -　デモ発表募集
     url: "./cfp-demo.html"
-  - name:  -　WISS Challenge
+  - name:  -　WISS Challenge募集
     url: "./call-for-challenge.html"
-  - name:  -　WISS Design
+  - name:  -　WISS Design募集
     url: "./call-for-design.html"
-  - name:  -　学生ボランティア募集
-    url: "./call-for-studentvolunteer.html"
   - name: 査読方針
     url: "./review-policy.html"
   label: for-authors
+- category_name: 参加者の方へ
+  pages:
+  - name: 学生ボランティア募集
+    url: "./call-for-studentvolunteer.html"
+  - name: 企業スポンサー募集
+    url: "./call-for-sponser.html"
+  label: for-participants
 - category_name: WISSについて
   pages:
   - name: WISS委員一覧
