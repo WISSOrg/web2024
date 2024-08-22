@@ -20,8 +20,7 @@ WISSは，インタラクティブシステムにおける未来を切り拓く�
 2024 at wiss.org
 
 ## 協賛学会（五十音順）
-（準備中）
-<!--
+
 - [画像電子学会ビジュアルコンピューティング研究会](https://www.iieej.org/sigvc/)
 - [芸術科学会](https://art-science.org/)
 - [計測自動制御学会システムインテグレーション部門](https://sice-si.org/ja/)
@@ -36,8 +35,6 @@ WISSは，インタラクティブシステムにおける未来を切り拓く�
 - [電子情報通信学会ヒューマンコミュニケーショングループ](http://sigubi.ipsj.or.jp/)
 - [日本バーチャルリアリティ学会](https://vrsj.org/)
 - [ヒューマンインタフェース学会](https://jp.his.gr.jp/)
--->
-
 
 
 <!--stackedit_data:

@@ -12,21 +12,21 @@
     url: "./call-for-challenge.html"
   - name:  -　WISS Design募集
     url: "./call-for-design.html"
+  - name:  -　学生ボランティア募集
+    url: "./call-for-studentvolunteer.html"
   - name: 査読方針
     url: "./review-policy.html"
   label: for-authors
-- category_name: 参加者の方へ
+- category_name: スポンサーの方へ
   pages:
-  - name: 学生ボランティア募集
-    url: "./call-for-studentvolunteer.html"
   - name: 企業スポンサー募集
-    url: "./call-for-sponser.html"
-  label: for-participants
+    url: "./call-for-sponsor.html"
+  label: for-sponsor
 - category_name: WISSについて
   pages:
   - name: WISS委員一覧
     url: "./committee.html"
-  - name: 公式ツイッター
+  - name: 公式X
     url: "https://twitter.com/wiss_official"
   - name: 過去のWISS
     url: "./archive.html"
