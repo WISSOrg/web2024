@@ -17,6 +17,13 @@
   - name: 査読方針
     url: "./review-policy.html"
   label: for-authors
+- category_name: 参加者の方へ
+  pages:
+  - name: 参加募集
+    url: "./call-for-participants.html"
+  - name: ローカル情報
+    url: "./local.html"
+  label: for-participants
 - category_name: スポンサーの方へ
   pages:
   - name: 企業スポンサー募集
@@ -28,6 +35,8 @@
     url: "./committee.html"
   - name: 公式X
     url: "https://twitter.com/wiss_official"
+  - name: 各種ポリシー
+    url: "./attending-policy.html"
   - name: 過去のWISS
     url: "./archive.html"
   label: about-wiss

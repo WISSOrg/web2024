@@ -53,8 +53,8 @@ WISSの発表・聴講・議論・記録をサポートし盛り上げる，あ�
 
   
 ## 投稿システム
-- (準備中)
-<!-- - [https://confmanex.wiss.org/](https://confmanex.wiss.org/) -->
+
+- [https://confmanex.wiss.org/](https://confmanex.wiss.org/)
 
 <a id="諸注意"></a>
 ## 補足と諸注意

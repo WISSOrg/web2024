@@ -47,8 +47,8 @@
 	- 参考:  [WISS2024 論文よくあるミス一覧](./downloads/WISSTemplate_2024_0527_errors.pdf)
 
 ## 投稿システム
-- (準備中)
-<!-- - [https://confmanex.wiss.org/](https://confmanex.wiss.org/) -->
+
+- [https://confmanex.wiss.org/](https://confmanex.wiss.org/)
 
 
 <a id="デモ発表の諸注意"></a>
