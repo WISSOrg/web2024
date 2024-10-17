@@ -1,5 +1,14 @@
 # デモ発表
 ![デモ発表遠景](https://lh3.googleusercontent.com/pw/AP1GczOWpygXQuIb_ueaOykt49rWtbbpBjQ5pepuKELhcGpziU4ZeBDbdKWz7LwMnWeemNEuWFtrZ5e3tYBzzcuShh9UJ8MJ6Rs7AyJHCy7k9wxDIeGpxg3ELPnDrzr4SiUk-WiPahQYdtM5KJysFQzdwPjrYg=w1620-h401-s-no?authuser=0)
+### デモ発表枠の追加(2024/10/15追記):
+- **デモ発表の申し込み枠が想定より大幅に早く（10/10時点で）埋まってしまったため，プログラム委員会で急遽協議し，今年は以下の二つの方針を組み合わせて，募集時には原則枠を制限しない方針とします．**
+	- **方針1:** 今年の会場（苗場プリンスホテル）は例外的にスペースに余裕があるため，デモ発表の申し込み件数に併せて，可能な範囲でデモ会場を増設します．WISSの本質は多様な議論を行うことにあるため，できるだけ方針1で対応します．
+		- ただし，[デモ発表の諸注意](#デモ発表の諸注意)に記載しているように，プログラム委員会が内容が不適切だと判断した場合は，不採択となる可能性があります．
+		- また，会場の拡張に伴い，暗室や音に関する要望に答えられなくなる可能性があります．予めご了承ください．
+	- **方針2:** もし方針1では対応できないほど多くの件数（詳細は調整中ですが，例えば150件以上）の投稿があった場合は，プログラム委員会による追加審査を行い採否を決定します．
+		- 上述した研究の内容確認に加えて，「論文の形式的な品質」「完成原稿の最終投稿日時（早い程よい．新規投稿の作成日時ではありません）」等を踏まえて，総合的に判断されます．
+		- 登壇発表に投稿された論文（採択／不採択は問いません）でデモ発表を希望される場合は，（内容が不適切でない限り）優先して採択します．
+
 ## 概要
 - 2ページ以内の論文（日本語あるいは英語）をPDFで提出してください．
 - 割り当てられたスペースでインタラクティブシステムのデモを中心とした発表をしていただきます．
@@ -10,10 +19,6 @@
 
 <a id="スケジュール"></a>
 ## スケジュール
-<!--
-	★塚田メモ（後で消す）10/25まで登壇発表者用枠を確保するのはちょっと遅い...？
-	デモの締め切りをもう1週間後にしても多分大丈夫だとは思う（現在締切は去年と同じで，会期は1週間遅いため
-	-->
 日程|内容
 :--|:--
 **2024年09月01日(日)**	| **デモ発表投稿システムオープン**
@@ -48,7 +53,7 @@
 
 ## 投稿システム
 
-- [https://confmanex.wiss.org/](https://confmanex.wiss.org/)
+ [https://confmanex.wiss.org/](https://confmanex.wiss.org/) 
 
 
 <a id="デモ発表の諸注意"></a>
@@ -89,12 +94,3 @@ WISS2024出版担当:  2024pub at wiss.org
 ### 投稿システム・スケジュール等の総合的な問い合わせ先
 2024 at wiss.org
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDU3MzM1MzksLTc0OTAzNDYzNSw0Nz
-IyNTg3NTksLTk3MzQzNjQ1NSwtMTU3MDk0MDg5NSwyNzg3NDU5
-NjksLTIxMDI2NDI3NTEsMTYwODY0OTQzLDI3Mjg0MTMxMCwxMj
-MwOTA2MzMxLDEyMDU2Nzg4MywtMTM4MDE4NDM5LC0yMTIyODI2
-NjMxLDYxNDU0MzQ5OSw0MjIyMDg0NDksMTU2MzQ5NzE3MSwtMT
-IxNjg3MDEyLC02NjcwMzE0NjAsLTMxNDIzMjc1MiwtMTUwNzg2
-MTQ0M119
--->

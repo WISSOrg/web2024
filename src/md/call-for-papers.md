@@ -12,7 +12,7 @@
 [国際学会招待発表](./cfp-international.html) |2024/07/01| **2024/08/31(土)** | 2024/10/18
 [デモ発表](./cfp-demo.html)  |2024/09/01 | **2024/10/31(木)** | 2024/11/08
 [WISS Challenge](./call-for-challenge.html)  |2024/09/01 |**2024/10/31(木)** | 2024/11/08
-[WISS Design](./call-for-design.html) |2024/07/01 | **2024/08/31(土)** |  2024/10/18
+[WISS Design](./call-for-design.html) |2024/07/01 | **2024/09/30(月)** |  2024/10/18
 [学生ボランティア](./call-for-studentvolunteer.html) |2024/10/24| **2024/10/31(木)** | 2024/11/08
 
 
