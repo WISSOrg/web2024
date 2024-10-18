@@ -73,11 +73,12 @@ body {
 .jumbotron {
   overflow: hidden;
   position: relative;
-  background-color: #f7ebeb;
+  background-color: #ffffff;
   padding-top: 75px;
   padding-bottom: 15px;
   border-radius: 0rem;
-  color: #573827; }
+  color: #573827; 
+  margin-top: 640px; }
 
 .nav-padding {
   padding-top: 120px; }
