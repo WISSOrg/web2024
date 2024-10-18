@@ -74,11 +74,11 @@ body {
   overflow: hidden;
   position: relative;
   background-color: #ffffff;
-  padding-top: 75px;
-  padding-bottom: 15px;
+  padding-top: 375px;
+  padding-bottom: 5px;
   border-radius: 0rem;
-  color: #573827; 
-  margin-top: -80px; }
+  font-size: 3.3em;
+  color: #573827; }
 
 .nav-padding {
   padding-top: 120px; }
