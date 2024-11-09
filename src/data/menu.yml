@@ -24,6 +24,12 @@
   - name: ローカル情報
     url: "./local.html"
   label: for-participants
+- category_name: プログラム
+  pages:
+  - name: 全体スケジュール
+    url: "./program.html"
+  - name: 特別講演
+    url: "./keynote.html"
 - category_name: スポンサーの方へ
   pages:
   - name: 企業スポンサー募集

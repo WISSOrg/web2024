@@ -3,51 +3,55 @@
 - 
   const oral_sessions = [
     { 
-      session: "セッション1: 身体", 
-      talks: [ "01", "02", "03" ] ,
-      session_chair: "倉本 到",
-      chat_chair: "栗原 一貴",
+      session: "セッション1: XR", 
+      talks: [ "01", "02", "03", "04" ] ,
+      session_chair: "TBD",
+      chat_chair: "TBD",
     },
     { 
-      session: "セッション2: 学習", 
-      talks: [ "04", "05", "06" ] ,
-      session_chair: "五十嵐 悠紀",
-      chat_chair: "原 貴洋",
+      session: "セッション2: 音", 
+      talks: [ "05", "06", "07" ] ,
+      session_chair: "TBD",
+      chat_chair: "TBD",
     },
     { 
-      session: "セッション3: 表現", 
-      talks: [ "07", "08", "09", "10" ] ,
-      session_chair: "鳴海 紘也",
-      chat_chair: "松村 耕平",
+      session: "セッション3: 入力／出力", 
+      talks: [ "08", "09", "10", "11" ] ,
+      session_chair: "TBD",
+      chat_chair: "TBD",
     },
     { 
-      session: "セッション4: 国際学会・国際論文誌採択論文発表", 
-      talks: [ "11", "12", "13", "14", "15", "16", "17" ] ,
-      session_chair: "志築 文太郎",
-      chat_chair: "宮藤 詩緒",
+      session: "セッション4: ファブ／マテリアル", 
+      talks: [ "12", "13", "14" ] ,
+      session_chair: "TBD",
+      chat_chair: "TBD",
     },
     { 
-      session: "セッション5: 誘い", 
-      talks: [ "18", "19", "20" ] ,
-      session_chair: "山本 和彦",
-      chat_chair: "大西 鮎美",
+      session: "セッション5: エンターテインメント", 
+      talks: [ "15", "16", "17" ] ,
+      session_chair: "TBD",
+      chat_chair: "TBD",
     },
     { 
-      session: "セッション6: 入力手法", 
-      talks: [ "21", "22" ] ,
-      session_chair: "高田 崚介",
-      chat_chair: "池松 香",
+      session: "セッション6: 支援", 
+      talks: [ "18", "19", "20" ,"21"] ,
+      session_chair: "TBD",
+      chat_chair: "TBD",
     },
-  ];
-- 
-  const long_teasor_sessions = [
     {
-      session: "ロングティザー", 
-      talks: [ "T01", "T02", "T03", "T04", "T05"], 
-      session_chair: "寺田 努",
-      chat_chair: "加藤 邦拓",
+      session: "セッション7: 国際学会招待発表", 
+      talks: [ "22", "23", "24", "25"] ,
+      session_chair: "TBD",
+      chat_chair: "TBD",
     },
+    {
+      session: "国際学会招待発表（デモ）", 
+      talks: [ "26"], 
+    }
   ];
+
+
+
 - const placeholder_image_path = "./assets/representatives/placeholder.jpg"
 
 
@@ -76,13 +80,10 @@ html(lang=ja)
                   tr
                     td #{entry["time"]}
                     td #{entry["title"]} <small>[#{entry["duration"]}分]</small>
-      h1 登壇発表・ロングティザー発表
+      h1 登壇発表
       ul
-        li 登壇発表（ロング発表）：<b>25分</b> <small>[発表15分・質疑10分]</small>
-        li 登壇発表（ショート発表）：<b>15分</b> <small>[発表10分・質疑5分]</small>
-        li 登壇発表（議論枠発表）：<b>15分</b> <small>[発表7.5分・質疑7.5分]</small>
-        li ロングティザー発表：<b>5分</b> <small>[発表5分・議論をセッションごとにまとめて実施]</small>
-        li 国際学会・国際論文誌採択論文発表：<b>10分</b> <small>[発表10分・議論をセッションごとにまとめて実施]</small>
+        li 登壇発表：<b>15分</b> <small>[発表10分・質疑4分・入れ替え1分]</small>
+        li 国際学会招待発表：<b>15分</b> <small>[発表10分・質疑4分・入れ替え1分]</small>
       .program
         each session in oral_sessions
           hr
@@ -95,12 +96,10 @@ html(lang=ja)
           each talk in session["talks"]
             each entry in papers_data
               - const csv_data_entry = papers_author_provided_data[parseInt(talk) - 1];
-              - const image_path = csv_data_entry["image"] == "TRUE" ? "./assets/representatives/" + talk + ".jpg" : placeholder_image_path;
-              //- const category_class = csv_data_entry["category"] == "L" ? "badge-long" : "badge-short";
-              //- const category_name = csv_data_entry["category"] == "L" ? "ロング発表" : "ショート発表";
+              - const image_path = csv_data_entry["image"] == "TRUE" ? "./assets/representatives/" + talk + ".png" : placeholder_image_path;
               - const entry_name = csv_data_entry["category"];
-              - const category_class = entry_name == "L" ? "badge-long" : (entry_name != "I" ? "badge-short" : "badge-int");
-              - const category_name = entry_name == "L" ? "ロング発表" : (entry_name == "S" ? "ショート発表" : (entry_name == "D" ? "議論枠発表" : "国際発表"));
+              //- const category_class = entry_name == "L" ? "badge-long" : (entry_name != "I" ? "badge-short" : "badge-int");
+              //- const category_name = entry_name == "L" ? "ロング発表" : (entry_name == "S" ? "ショート発表" : (entry_name == "D" ? "議論枠発表" : "国際発表"));
               - const text1 =  entry_name != "I" ? "採録時コメント" : "国際学会・国際論文誌名";
               if entry["id"] == talk
                 h4 [#{talk}] #{entry["title"]} <span class="badge #{category_class}">#{category_name}</span>
@@ -118,21 +117,9 @@ html(lang=ja)
                      h5 #{text1}
                      p  #{csv_data_entry["comment"]}
 
-        each session in long_teasor_sessions
-          hr
-          .jumbotron
-            h3 #{session["session"]}
-            ul.list-inline
-              //- li.list-inline-item <b>日時：</b>XX/XX XX:XX&mdash;XX:XX
-              li.list-inline-item <b>座長：</b>#{session["session_chair"]}
-              li.list-inline-item <b>チャット座長：</b>#{session["chat_chair"]}
-          each talk in session["talks"]
-            each entry in papers_data
-              if entry["id"] == talk
-                h4 [#{talk}] #{entry["title"]}
-                p.authors #{entry["authors"]}
+       
         hr
         p 
-          small 著者の方へ：ウェブプログラム掲載用のデータの提出・差替を希望する場合はウェブ担当 2023web@wiss.orgへ連絡をお願いします。書誌情報（著者・タイトル等）にかかる変更を希望する場合はプログラム委員長 2023@wiss.org へ連絡をお願いします。
+          small 著者の方へ：プログラムに記載された情報に誤りがある場合は，プログラム委員長 2024@wiss.org へ連絡をお願いします．
     include includes/footer
     include includes/bootstrap-js
