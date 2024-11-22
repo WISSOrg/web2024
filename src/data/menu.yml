@@ -30,6 +30,8 @@
     url: "./program.html"
   - name: 特別講演
     url: "./keynote.html"
+  - name: 動画中継
+    url: "./live.html"
 - category_name: スポンサーの方へ
   pages:
   - name: 企業スポンサー募集
