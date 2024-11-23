@@ -1,7 +1,5 @@
 - category_name: 著者の方へ
   pages:
-  - name: 発表者の方へ
-    url: "./for-presenter.html"
   - name: 発表募集
     url: "./call-for-papers.html"
   - name:  -　登壇発表募集
@@ -28,21 +26,19 @@
   label: for-participants
 - category_name: プログラム
   pages:
-  - name: 全体スケジュール
+  - name: 全体スケジュール・登壇発表
     url: "./program.html"
   - name: 特別講演
     url: "./keynote.html"
   - name: デモ発表
     url: "./demo.html"
+  - name: 発表者の方へ
+    url: "./for-presenter.html"
   label: program
 - category_name: 動画中継
   pages:
-  - name: 1日目
-    url: "https://youtube.com/live/vT2G7aPXncY?feature=share"
-  - name: 2日目
-    url: "https://youtube.com/live/puPlhGNkUWo?feature=share"
-  - name: 3日目
-    url: "https://youtube.com/live/idNLrHQWDoQ?feature=share"
+  - name: 中継リンク
+    url: "./live.html"
   label: live
 - category_name: スポンサーの方へ
   pages:
