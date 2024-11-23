@@ -1,5 +1,7 @@
 - category_name: 著者の方へ
   pages:
+  - name: 発表者の方へ
+    url: "./for-presenter.html"
   - name: 発表募集
     url: "./call-for-papers.html"
   - name:  -　登壇発表募集
@@ -30,13 +32,30 @@
     url: "./program.html"
   - name: 特別講演
     url: "./keynote.html"
-  - name: 動画中継
-    url: "./live.html"
+  - name: デモ発表
+    url: "./demo.html"
+  label: program
+- category_name: 動画中継
+  pages:
+  - name: 1日目
+    url: "https://youtube.com/live/vT2G7aPXncY?feature=share"
+  - name: 2日目
+    url: "https://youtube.com/live/puPlhGNkUWo?feature=share"
+  - name: 3日目
+    url: "https://youtube.com/live/idNLrHQWDoQ?feature=share"
+  label: live
 - category_name: スポンサーの方へ
   pages:
   - name: 企業スポンサー募集
     url: "./call-for-sponsor.html"
   label: for-sponsor
+- category_name: 予稿集
+  pages:
+  - name: ウェブ予稿集
+    url: "../WISS2024Proceedings/index.html"
+  - name: 電子予稿集
+    url: "./downloads/proceedings.pdf"
+  label: papers
 - category_name: WISSについて
   pages:
   - name: WISS委員一覧

@@ -17,6 +17,7 @@ const organizing_committee_data_path = "src/data/organizing-committee.yml"
 const program_committee_data_path = "src/data/program-committee.csv"
 const papers_author_provided_data_path = "src/data/papers.csv"
 const papers_data_path = "src/data/papers.json"
+const demo_data_path = "src/data/demoweb.json"
 
 gulp.task('asset-processing', function(done) {
     // Compress committee member portraits and copy them to the destination directory
@@ -88,6 +89,7 @@ gulp.task('pug', function(done) {
 
     // Read JSON files
     const papers_data = JSON.parse(fs.readFileSync(papers_data_path))
+    const demo_data = JSON.parse(fs.readFileSync(demo_data_path))
 
     gulp.src("src/*.pug")
         .pipe(data(function(file) {
@@ -97,7 +99,8 @@ gulp.task('pug', function(done) {
                 schedule_data: schedule_data,
                 program_committee_data: program_committee_data,
                 papers_author_provided_data: papers_author_provided_data,
-                papers_data: papers_data
+                papers_data: papers_data,
+                demo_data: demo_data
             };
         }))
         .pipe(pug({ pretty: true }))
