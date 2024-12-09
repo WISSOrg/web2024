@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="WISS 2024: 第32回インタラクティブシステムとソフトウェアに関するワークショップ">
+    <meta name="twitter:description" content="WISSは，インタラクティブシステムにおける未来を切り拓くような新しいアイデア・技術を議論するワークショップです．この分野において国内でもっともアクティブな学術会議のひとつであり，例年150名以上の参加者が朝から深夜まで活発で意義深い情報交換を行っています．さまざまなバックグラウンドをもった方々からの積極的な論文投稿及び参加をお待ちしています．">
+    <meta name="twitter:url" content="https://wiss.org/WISS2024/">
+    <meta name="twitter:image" content="https://wiss.org/WISS2024/assets/logo/twitter-card.png">
+    <meta name="twitter:site" content="@wiss_official">
+    <meta name="twitter:image:alt" content="WISS 2024">
+    <title>WISS 2024: 第32回インタラクティブシステムとソフトウェアに関するワークショップ</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/override.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container"><a class="navbar-brand" href="./"><b><span class="logo-1">W</span><span class="logo-2">I</span><span class="logo-3">S</span><span class="logo-4">S</span><span class="logo-5">2</span><span class="logo-6">0</span><span class="logo-7">2</span><span class="logo-8">4</span></b></a>
+          <!--a(href="./").navbar-brand <b><span class="logo-white">WISS</span> <span class="logo-green">2024</span></b>-->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-menu" aria-controls="navbars-menu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbars-menu">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="./" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdown-for-authors">著者の方へ</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown-for-authors"><a class="dropdown-item" href="./call-for-papers.html">発表募集</a><a class="dropdown-item" href="./cfp-oral.html">-　登壇発表募集</a><a class="dropdown-item" href="./cfp-international.html">-　国際学会招待発表募集</a><a class="dropdown-item" href="./cfp-demo.html">-　デモ発表募集</a><a class="dropdown-item" href="./call-for-challenge.html">-　WISS Challenge募集</a><a class="dropdown-item" href="./call-for-design.html">-　WISS Design募集</a><a class="dropdown-item" href="./call-for-studentvolunteer.html">-　学生ボランティア募集</a><a class="dropdown-item" href="./review-policy.html">査読方針</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="./" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdown-for-participants">参加者の方へ</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown-for-participants"><a class="dropdown-item" href="./call-for-participants.html">参加募集</a><a class="dropdown-item" href="./local.html">ローカル情報</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="./" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdown-program">プログラム</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown-program"><a class="dropdown-item" href="./program.html">全体スケジュール・登壇発表</a><a class="dropdown-item" href="./keynote.html">特別講演</a><a class="dropdown-item" href="./demo.html">デモ発表</a><a class="dropdown-item" href="./challenge.html">WISS Challenge</a><a class="dropdown-item" href="./for-presenter.html">発表者の方へ</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="./" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdown-live">動画中継</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown-live"><a class="dropdown-item" href="./live.html">中継リンク</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="./" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdown-for-sponsor">スポンサーの方へ</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown-for-sponsor"><a class="dropdown-item" href="./call-for-sponsor.html">企業スポンサー募集</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="./" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdown-proceedings">予稿集</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown-proceedings"><a class="dropdown-item" href="proceedings.html">Web予稿集・電子予稿集</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="./" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdown-about-wiss">WISSについて</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown-about-wiss"><a class="dropdown-item" href="./committee.html">WISS委員一覧</a><a class="dropdown-item" href="https://twitter.com/wiss_official">公式X</a><a class="dropdown-item" href="./attending-policy.html">各種ポリシー</a><a class="dropdown-item" href="./archive.html">過去のWISS</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container nav-padding content">
+      <h1>全体スケジュール</h1>
+      <div class="row">
+        <div class="col-lg-4">
+          <table class="table table-hover" style="margin-bottom: 48px;">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col" colspan="2">1日目 (12/11)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>13:00</td>
+                <td>オープニング <small>[30分]</small></td>
+              </tr>
+              <tr>
+                <td>13:30</td>
+                <td>WISS Challenge紹介 <small>[10分]</small></td>
+              </tr>
+              <tr>
+                <td>13:40</td>
+                <td>休憩 <small>[15分]</small></td>
+              </tr>
+              <tr>
+                <td>13:55</td>
+                <td>セッション1: XR <small>[60分]</small></td>
+              </tr>
+              <tr>
+                <td>14:55</td>
+                <td>休憩 <small>[15分]</small></td>
+              </tr>
+              <tr>
+                <td>15:10</td>
+                <td>セッション2: 音 <small>[45分]</small></td>
+              </tr>
+              <tr>
+                <td>15:55</td>
+                <td>休憩 <small>[20分]</small></td>
+              </tr>
+              <tr>
+                <td>16:15</td>
+                <td>スポンサーセッション <small>[35分]</small></td>
+              </tr>
+              <tr>
+                <td>16:50</td>
+                <td>デモプレビュー1 <small>[30分]</small></td>
+              </tr>
+              <tr>
+                <td>17:20</td>
+                <td>デモセッション1 <small>[100分]</small></td>
+              </tr>
+              <tr>
+                <td>19:00</td>
+                <td>夕食他 <small>[90分]</small></td>
+              </tr>
+              <tr>
+                <td>20:30</td>
+                <td>ナイトセッション <small>[210分]</small></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-lg-4">
+          <table class="table table-hover" style="margin-bottom: 48px;">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col" colspan="2">2日目 (12/12)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>09:00</td>
+                <td>セッション3: 入力／出力 <small>[60分]</small></td>
+              </tr>
+              <tr>
+                <td>10:00</td>
+                <td>休憩 <small>[15分]</small></td>
+              </tr>
+              <tr>
+                <td>10:15</td>
+                <td>セッション4: ファブ／マテリアル <small>[45分]</small></td>
+              </tr>
+              <tr>
+                <td>11:00</td>
+                <td>休憩 <small>[15分]</small></td>
+              </tr>
+              <tr>
+                <td>11:15</td>
+                <td>セッション5: エンターテインメント <small>[45分]</small></td>
+              </tr>
+              <tr>
+                <td>12:00</td>
+                <td>昼食 <small>[60分]</small></td>
+              </tr>
+              <tr>
+                <td>13:00</td>
+                <td>セッション6: 支援 <small>[60分]</small></td>
+              </tr>
+              <tr>
+                <td>14:00</td>
+                <td>休憩 <small>[15分]</small></td>
+              </tr>
+              <tr>
+                <td>14:15</td>
+                <td>国際学会招待発表 <small>[60分]</small></td>
+              </tr>
+              <tr>
+                <td>15:15</td>
+                <td>休憩 <small>[20分]</small></td>
+              </tr>
+              <tr>
+                <td>15:35</td>
+                <td>デモプレビュー2 <small>[30分]</small></td>
+              </tr>
+              <tr>
+                <td>16:05</td>
+                <td>デモセッション2 <small>[100分]</small></td>
+              </tr>
+              <tr>
+                <td>17:45</td>
+                <td>休憩 <small>[15分]</small></td>
+              </tr>
+              <tr>
+                <td>18:00</td>
+                <td>特別講演 <small>[60分]</small></td>
+              </tr>
+              <tr>
+                <td>19:00</td>
+                <td>夕食他 <small>[90分]</small></td>
+              </tr>
+              <tr>
+                <td>20:30</td>
+                <td>ナイトセッション <small>[210分]</small></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-lg-4">
+          <table class="table table-hover" style="margin-bottom: 48px;">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col" colspan="2">3日目 (12/13)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>09:00</td>
+                <td>デモプレビュー3 <small>[30分]</small></td>
+              </tr>
+              <tr>
+                <td>09:30</td>
+                <td>デモセッション3 <small>[100分]</small></td>
+              </tr>
+              <tr>
+                <td>11:10</td>
+                <td>休憩 <small>[15分]</small></td>
+              </tr>
+              <tr>
+                <td>11:25</td>
+                <td>表彰 <small>[40分]</small></td>
+              </tr>
+              <tr>
+                <td>12:05</td>
+                <td>クロージング <small>[15分]</small></td>
+              </tr>
+              <tr>
+                <td>12:20</td>
+                <td>解散 <small>[10分]</small></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <h1>登壇発表</h1>
+      <ul>
+        <li>登壇発表：<b>15分</b> <small>[発表10分・質疑4分・入れ替え1分]</small></li>
+        <li>国際学会招待発表：<b>15分</b> <small>[発表10分・質疑4分・入れ替え1分]</small></li>
+      </ul>
+      <div class="program">
+        <hr>
+        <div class="jumbotron">
+          <h3>セッション1: XR</h3>
+          <ul class="list-inline">
+            <li class="list-inline-item"><b>座長：</b>藤田 和之（東北大）</li>
+            <li class="list-inline-item"><b>チャット座長：</b>佐藤 俊樹（北陸先端大）</li>
+          </ul>
+        </div>
+        <h4>[01] ParaSights：両眼視野闘争によって2つの環境と並行してインタラクションできる空間提示手法 <span class="badge "></span></h4>
+        <p class="authors">山本 航世(明治大学), 渡邊 恵太(明治大学)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/01.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>本研究は，複数の空間と並行してインタラクションできる仕組みとして，両眼視野闘争の特性を活用した手法を提案する．複数環境の同時体験インタラクションとして，従来は視野分割やオーバーレイといった手法が試みられてきたが，それらは操作効率の低下や自己投射性の欠如といった課題があった．本研究では，左右それぞれの眼に異なる第一人称視点を提示する「ParaSights」を提案し，視点切り替えの操作を必要とせずに，2空間と並行してインタラクションできるシステムを実現した．ParaSightsは，左右それぞれの眼に異なる視点を提示することで視覚闘争を誘発し，2視点の見え方が無段階に切り替わる仕組みである．これにより，体験者は2つの環境に同時に没入し，直感的に操作できる．11名を対象とした試用により，VR酔いを誘発することなく，異なる2つの視点を同時に知覚できることが明らかになった．また，視野闘争がもたらす知覚の切り替わりが，体験者の意図により一定程度制御できる可能性が示唆された．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> 本研究は，HMDの左右の眼にそれぞれ異なる1人称視点映像を提示して両眼視野闘争を生じさせ，それらの2視点の映像の見え方を特定の視点変更操作を用いることなく変化させることで，2つの異なるVR空間と並行してインタラクション可能にすることを目指したシステムを提案している．2視点の見え方をユーザの手の動きによって自然に切り替えられるインタラクション設計は面白く，新規性が高い．一方で，まだ限られた映像セットでの実装に留まっている点やフォーマルなユーザ評価が実施されていない点等，今後に向けた課題は残り，これらの点についてWISSでの議論が期待できる．以上の理由から，条件付き採録と判断された．</p>
+          </div>
+        </div>
+        <h4>[02] HidEye：片目を隠す動作によるHMD用インタラクション手法の提案 <span class="badge "></span></h4>
+        <p class="authors">伊勢 隆之介(公立はこだて未来大学), 塚田 浩二(公立はこだて未来大学)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/02.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>近年，メタバース等の発展とともに没入型ヘッドマウントディスプレイ（HMD）の利用場面は日常生活にも広がりつつある．日常生活環境でHMDを利用するには周辺の人や物に対する状況認識が重要であるが，高い没入感や視認性と引き換えに両目の周辺が覆われてしまうため，周辺状況の確認が難しい．本研究では，片目を隠す動作でVRコンテンツとパススルー機能を重畳表示することで，仮想空間と現実空間のコンテンツを手軽に切り替え可能なインタラクション手法HidEyeを提案する（図1）．さらに，片目を隠す動作を仮想空間での視野変更に活用した応用例を実装する．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> パススルー表示対応のMRゴーグルに搭載された、両眼カメラセンサの片目を手で塞ぐジェスチャを用いて、VR / MRコンテンツとパススルー表示や、コンテンツ自体の表現をシームレスに切り替える手法を提案している。既存のMRゴーグル上にて提案手法の提案、実装、評価を行っており、その認識精度は高い。いくつかの応用例も述べられており、WISSで議論すべき論文であると判断し、採択に至った。</p>
+          </div>
+        </div>
+        <h4>[03] 高速投影による運動物体の残像色制御手法 <span class="badge "></span></h4>
+        <p class="authors">幸谷 有紗(東京科学大学), 宮藤 詩緒(東京科学大学), 小池 英樹(東京科学大学)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/03.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>本研究では，高速投影技術と残像効果を利用し，観測者視野内における物体の運動に応じた残像の目的色提示を実現する新たな手法を提案する．継時加法混色による投影中に投影フレームを遮る物体が動くと，物体の残像に意図しない色が視認される．本研究では，運動時の残像に目的の色を提示するため，目的色で構成された複数フレームとその補色で構成された単一フレームを生成し，両者を高速に投影する．提案手法はトラッキング装置を必要とせず，残像の色彩を自在に制御することで，より豊かな視覚体験を提供する．検証により，本手法が静止時の知覚に影響を与えることなく運動時の残像に目的色を提示できることが示された．本手法は，歩きスマホの抑制や，キャラクターとのインタラクション，カメラ撮影時の映像変化を利用した新しいインタラクションが期待される．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> 本研究では，高速プロジェクタを用いて運動物体の残像の色を制御する手法を提案されている．既存手法との比較や人間の被験者に対する評価実験が不足している点など懸念はあるものの，アイディア自体が興味深く，WISSでの活発な議論が期待されることから採録と判定された．</p>
+          </div>
+        </div>
+        <h4>[04] 机上に投影した空中立体映像による方向指示の精度調査 <span class="badge "></span></h4>
+        <p class="authors">松浦 向日葵(明治大学), 福地 健太郎(明治大学)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/04.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>机上に映像を投影し，机上の実物体の説明や操作指示を行うシステムがこれまでに提案されている．多くの場合，矢印や記号類を投影することで指示を表現するが，小さな人間型キャラクタを表示して説明や指示をすると，利用者との対話感や共在感，楽しさを向上させることができ，博物館展示などに向く．しかし，投影する映像が平面の場合，キャラクタの方向指示精度に課題があった． 本研究では，キャラクタを空中立体映像として投影することにより，方向指示精度の改善を図った． 評価実験の結果，平面映像投影と比較して，方向指示の認識精度が有意に向上することが明らかになった．これにより，指示対象となる実物体が多数あるような環境における，空中立体映像の優位性が示唆された．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> 本論文は著者らが提案するAIRR方式を応用した空中立体像提示手法を用いて方向指示の精度評価を行ったものである．提案するディスプレイにおいて2D表示と3D立体表示で方向指示を行った際の精度の比較は試みとして新規性があると判断された．行われている実験については，方向指示の必要性等の前提条件や提案する空中立体像提示手法の視認性についての指摘，追加の統計解析の必要性の指摘等があったため，委員による議論の結果，これらの修正を条件とした条件付き採録と判断された．</p>
+          </div>
+        </div>
+        <hr>
+        <div class="jumbotron">
+          <h3>セッション2: 音</h3>
+          <ul class="list-inline">
+            <li class="list-inline-item"><b>座長：</b>渡邉 拓貴（はこだて未来大）</li>
+            <li class="list-inline-item"><b>チャット座長：</b>山本 和彦（YAMAHA）</li>
+          </ul>
+        </div>
+        <h4>[05] Whisphone: ささやき声で入力できるイヤホン <span class="badge "></span></h4>
+        <p class="authors">福本 雅朗(Microsoft)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/05.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>Whisphoneは，ささやき声での音声入力が可能なイヤホンである．先端部にマイクを搭載したカナル(耳穴挿入)型イヤホンによる外耳道閉鎖効果によって，骨導経由で外耳道内部に放射されたささやき声を効率的に収音できる．耳穴を塞ぐことによる外部騒音の遮断に加え，イヤホンのANC(Active Noise Canceling)機能の併用によって，80dB(A)の騒音下においても微小なささやき声の収録と音声認識が可能である．小型の機器は目立ちにくく常時装用が容易であり，小さなささやき声は入力に際して周囲の迷惑になりにくい．本装置を用いることで，オフィス・家庭・街頭等，日常生活の多くの場面においてハンズフリーでAIアシスタントとの対話を行うことができる．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> シンプルな構成でイヤホンにおけるささやき声での音声入力手法を実現した点を，全ての査読者が高く評価した．実験は1名のみだが，論文中の議論において幅広く網羅的な議論を行っている点も興味深く，採択にふさわしい論文であると判断された．</p>
+          </div>
+        </div>
+        <h4>[06] 楽器未経験者のための弦管打複合電子楽器の開発 <span class="badge "></span></h4>
+        <p class="authors">矢田 絵理奈(東京電機大学), 岩井 将行(東京電機大学)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/06.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>楽器未経験者にとって，楽器を始めるハードルは高く日常的に楽器に触れる機会も限られている現状がある．演奏者を増やすためには何よりも「きっかけ」が重要であると考え，演奏方法に着目して簡易的に楽器を体験する機会を増やす方法を模索し，弦楽器，管楽器，打楽器の要素を一体化した複合電子楽器「kiMera」を考案した．この楽器は，表面に鍵盤，裏面にはヴァイオリンの構造，側面にはフルートのキーやトランペットのピストンが配置されている．各楽器の要素をセンサーで再現し，MIDI規格で音を生成することで，ユーザーが複数の楽器を一度に体験することができるコンパクトな楽器である．試作機の外見に対するアンケートでは，92%が各楽器のイメージを持つことができたと回答しており，主観的な評価としては，演奏は難しくとも音を出す体験が容易になったことを示す．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> 本研究の「従来楽器を始めるきっかけとなる楽器」という位置付けで複合楽器を提案する方向性は興味深く、ピアノ、バイオリン、トランペット、フルートの4楽器に相当する奏法をコンパクトな同一楽器として実装したアイディアは新規性が認められる。従来楽器を始めるきっかけになったのかどうかまでは確認できておらず、演奏難易度が難しすぎるなど荒削りな側面はあるが、WISSが議論をする場であるという点を考慮して、採録と判断された。</p>
+          </div>
+        </div>
+        <h4>[07] 歌詞に基づく歌声アノテーションのためのインタフェース構築 <span class="badge "></span></h4>
+        <p class="authors">中野 倫靖(産業技術総合研究所), 加藤 淳(産業技術総合研究所), 渡邉 研斗(産業技術総合研究所), 濱崎 雅弘(産業技術総合研究所), 後藤 真孝(産業技術総合研究所)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/07.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>声に対する時間局所的なアノテーションを行う際に，その歌詞を用いるインタラクションを提案する．従来，時系列メディアのアノテーションでは，アノテーション内容に時刻情報を含める強ラベルと，時刻情報が含まれない弱ラベルを基本として，それらの派生や改善が提案されてきた．本研究では，歌詞の文節を選択するだけでその時刻情報を指定できて，簡単にアノテーションできる「歌詞ベース」のアノテーションを提案する．歌詞ベースのアノテーションでは，その音源を再生するプレーヤと，既存のテキストエディタやExcel等のスプレッドシートがあれば可能であるので，本稿ではまず，Excelをアノテーションエディタとして用いて実際にセマンティックタグをアノテーションした結果を分析することで，実用性を検証する．そしてさらに，その使いやすさを向上するためのインタフェースとして，Lyrics-Based Singing Annotatorを提案する．本インタフェースでは，クリック可能な歌詞と音源を同期して再生する機能，付与対象の歌詞をループ再生する機能，特定のタグが付与された歌詞をハイライトする機能を持つ．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> 歌声データに対して時間的なアノテーション (ビブラート，表情，声質など) をするために，ユーザが歌詞文字列をクエリとしてそれにアライメントされた歌声時間範囲を探索，アノテーション付与する興味深い手法を提案している. 従来法に比べてアノテーションコストが下がるのが明確であり，その実用性は高く評価できる. 一方で，まだ発展途上であり，実用性を考えると多くの疑問が残るのも事実であるが，WISSで議論をするには十分に面白い研究であり，採録と判断する. 会議では実用性や発展可能性についての議論がなされることを期待する.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="jumbotron">
+          <h3>セッション3: 入力／出力</h3>
+          <ul class="list-inline">
+            <li class="list-inline-item"><b>座長：</b>五十嵐 悠紀（お茶の水女子大）</li>
+            <li class="list-inline-item"><b>チャット座長：</b>松村 耕平（立命館大）</li>
+          </ul>
+        </div>
+        <h4>[08] TTTV4：一口ごとに味を提示する味覚のパーソナルメディア <span class="badge "></span></h4>
+        <p class="authors">笠原 暢仁(明治大学), 深池 美玖(明治大学), 宮下 芳明(明治大学)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/08.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>本稿は「味覚のパーソナルメディア」を実現することを目的とし，カトラリー型味覚提示デバイスTTTV4のハードウェアとソフトウェアを試作した．各個人が使用することで，各個人が求める味を楽しむことができ，味覚コンテンツがパーソナライズされる．TTTV4は単なる小型化の実現だけでなく，対象ユーザを料理を「作る人」から「食べる人」まで拡張した．これに伴い，要求される多様な速度と精度に基づいたハードウェアの議論を行った．また，多様な対象ユーザでも扱えるインタフェースに関する議論を行うため，Direct ManipulationとInterface Agentsに基づく2つのユーザインタフェースを試作した．本稿における考察から，パーソナルメディアを実現するには，ユーザに合わせてインタフェースもパーソナライズすべきであることが示唆された．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> これまでの著者らの取組みの発展系として，一口毎に味を変えられるデバイスの提案は興味深く，WISSの登壇発表として議論を呼ぶ提案になっていると判断された．一方で，著者ら以外の関連研究がほぼ述べられていないことによる研究の位置づけの不明瞭さ，LLMと本研究の位置づけの不明瞭さ等を中心に，記述に関しては問題を抱えていたため，条件付き採録と判定された．</p>
+          </div>
+        </div>
+        <h4>[09] 眼鏡の鼻あてに搭載した圧力センサを用いた耳ぴく入力と身体活動検出手法 <span class="badge "></span></h4>
+        <p class="authors">大塚 晟(神戸市立工業高等専門学校), 高田 崚介(神戸市立工業高等専門学校)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/09.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>スマートグラス用のハンズフリー入力手法として，音声や視線，頭の動きを用いた方法が提案されているが，日常動作との切り分けが難しく，誤認識が問題となる．また，スマートウォッチは健康管理目的で普及しているが，スマートグラスには運動量や脈拍の計測機能を備えたものが少ない．そこで，本研究では眼鏡の左右の鼻あてに圧力センサを搭載し，耳を動かす動作（耳ぴく）を用いたハンズフリー操作に加え，瞬き，歩行，および脈拍を計測する手法を示す．提案手法は鼻あて部の圧力センサを用いるため，環境光，騒音などの外的要因に影響されない．実験では3名の協力者を対象に，耳ぴく，瞬き，歩行のセンサ応答を計測し，SVMを用いてユーザごとの分類器と汎用分類器を作成し，それぞれの識別精度を評価した．その結果，ユーザごとの分類器では平均98.3%，汎用分類器では平均92.4%のF1スコアが得られた．また，提案手法による脈拍検出の精度を従来の脈拍センサと比較し，その有効性を検証した．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> メガネの鼻あて部へ圧力センサを装着することで，耳ぴく動作，歩行，瞬き，脈拍等の複数の動作を高精度で認識できる手法を提案している．シンプルなセンサ構成で複数の動作を高精度で認識できている点は，全ての査読者が評価した．一方で，様々な動きを取れるいうことはノイズにも敏感だと考えられる点，耳ぴく動作自体の使いやすさ，学習コストが不明瞭な点などが指摘されたが，WISSにおいて議論する価値がある論文と考え，条件付採録と判断された．</p>
+          </div>
+        </div>
+        <h4>[10] 母音，子音の順に選択を行う間接タッチ用かな文字入力手法 <span class="badge "></span></h4>
+        <p class="authors">和田 優斗(筑波大学), 白根 薫(筑波大学), 崔 明根(日本学術振興会/筑波大学), 志築 文太郎(筑波大学)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/10.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>間接タッチとは，操作対象が表示された出力面に直接触れるのではなく，別の入力面を介して行われるタッチを指す．間接タッチを行う際，ユーザは入力面を直接視認しないため，正確な位置に指をタッチダウンすることが難しい．日本語文字入力におけるこの課題を解決するために，我々はスマートウォッチを入力面に用いた間接タッチ用かな文字入力手法を開発した．本手法では，ユーザはベゼルからのスライドインによる母音選択，および目的の子音キーからのタッチアップによる子音選択を連続して行う．これにより，入力面の視認を必要としない，間接タッチによる正確な日本語文字入力が達成される．研究室内実験の結果，間接タッチ時に，本手法の平均文字入力速度が29.5 CPM，平均トータルエラー率が10.0%であることが示された．実験結果より，間接タッチにおける本手法の有用性が示唆された．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> 離れたデバイスの画面を見ながら手元のデバイスに対して直視せずに入力する「間接タッチ」という入力方法について，母音→子音という順序で入力するユニークな方法の提案が評価され，採録と判断された．母音→子音という順序の文字入力は直感に反するのでは？というナイーブな疑問があるが，著者らは実際にスマートウォッチアプリを開発して実験的に提案手法の良さを検証している．ぜひ提案手法で文字入力を試してみたいと思わせる研究である．</p>
+          </div>
+        </div>
+        <h4>[11] E-String Figures: 導電繊維編み込み紐を用いたあやとり技認識システム <span class="badge "></span></h4>
+        <p class="authors">永山 晃誠(筑波大学), 崔 明根(日本学術振興会/筑波大学), 武山 侑輝(筑波大学), 赤田 真由(筑波大学), 高田 崚介(神戸市立工業高等専門学校), 志築 文太郎(筑波大学)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/11.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>本研究では導電繊維を編み込んだ紐および両手の指に取り付けた電極を用いることにより，あやとり技を認識するシステムを示す．本システムでは，両手の10本の指に装着した電極を用いて各電極間の電位差を測定し，得られた測定値から機械学習を用いてあやとり技を認識する．あやとりは技によって紐の絡まり方および紐同士の接触点が異なるため，技ごとに電極間を流れる電流の経路が異なると考えられる．そのため，あやとり技ごとの電極間の電位差の違いを認識することによって，あやとり技を認識することができると考えた．実験にて，3種類の連続技のそれぞれの変形工程を認識したところ，連続技1のF値が0.91，連続技2のF値が0.98および連続技3のF値が0.82という精度で認識できた．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> あやとりのパターン認識を行うために，導電性のある紐の接触状態を両手にはめた手袋の電極から見た抵抗値で判別している．紐に電極を付ける先行研究や画像認識を行う先行研究に比べ，通常のあやとりにかなり近い状態で技認識を行えることが有用と思われ，採録と判断された．発表では，紐の長さを変えた場合のキャリブレーションや将来のアプリケーションなどを議論できると良いと思われる．</p>
+          </div>
+        </div>
+        <hr>
+        <div class="jumbotron">
+          <h3>セッション4: ファブ／マテリアル</h3>
+          <ul class="list-inline">
+            <li class="list-inline-item"><b>座長：</b>石井 綾郁（NTT）</li>
+            <li class="list-inline-item"><b>チャット座長：</b>鳴海 紘也（慶應大）</li>
+          </ul>
+        </div>
+        <h4>[12] ボタンひとつで3Dプリントが体験できるシステムの提案と運用 <span class="badge "></span></h4>
+        <p class="authors">高橋 治輝(立命館大学), 臼井 義人(立命館大学), 松村 耕平(立命館大学)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/12.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>新しい技術を人に使ってもらうことは難しい．ましてや研究段階のシステムとなるとなおさらである．本稿では，3Dプリンタに興味のない人たちに3Dプリントを体験させることを目的として，簡単なボタン操作のみで3Dプリンタのすべての工程を体験可能なシステムを提案する．ボタンを押すことで3Dプリンタは自動で造形を開始し，造形中の造形速度を変化させる．システムを1ヶ月間に渡って運用したところ，オペレータ不在の状態であるにも関わらず166回の造形が行われた．また，体験者へのインタビューからシステムによって3Dプリンタに関する理解や興味が深まったことが示された．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> 3Dプリント未経験者向けに，簡易な作業のみで3Dプリントを体験させるシステムが提案されている．ボタン押下のみというオペレータ不要な簡単な手段で3Dプリンタを操作可能である．新規性が明らかであり，システムが正確に実装されている点が評価された．本システムで3Dプリンタに触れてみたユーザに対する将来的なプリンタの使用可能性や，より進んだ技術の習得方法など，システムの有用性については今後明らかにされていくものとする．以上の理由から，採録と判断された．</p>
+          </div>
+        </div>
+        <h4>[13] MagElePaint: 多様な素材に簡単に回路プロトタイピングが可能な磁性導電性塗料 <span class="badge "></span></h4>
+        <p class="authors">山岸 真人(神戸市立工業高等専門学校), 高田 崚介(神戸市立工業高等専門学校)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/13.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>従来の導電性塗料を用いた回路プロトタイピング手法では，接着剤等を介して電子部品を接続するため着脱が難しく，また塗布対象が紙などに限られていた．そこで本研究では，鉄粉とボンド等の乾燥により硬化する液体を混合した磁性導電性塗料「MagElePaint」を用いた回路プロトタイピング手法を提案する．MagElePaintは，インジェクタを用いて紙，布，皮膚など多様な素材に自在に塗布でき，磁性を有するため磁石を介して電子部品を簡単に着脱できる．本論文にて，MagElePaintの材料の種類や混合比，塗布対象の素材による，抵抗値の経時変化を調査した．さらに紙，布，皮膚上での回路プロトタイピングを試みた．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> 本研究の「回路プロトタイピングのための磁性導電性塗料」は，さまざまな素材に対して塗布可能であり，将来性のある研究であると評価されました．一方で，既存研究や代替手法もあり，材料としての新規性や有用性に疑問が指摘されています．また，論文の記述内容に関しても不明瞭な点があります．こうした課題はありますが，WISSが議論をする場であるという点とその議論に足る実装が行われているという点を考慮して，条件付き採録と判定しました．</p>
+          </div>
+        </div>
+        <h4>[14] RippleSpike: スパイク表現と波紋表現を組み合わせた情報提示手法 <span class="badge "></span></h4>
+        <p class="authors">野間 直生(公立はこだて未来大学), 沖 真帆(公立はこだて未来大学), 塚田 浩二(公立はこだて未来大学)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/14.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>液体ディスプレイには，柔軟な形状変化や液体の質感を活用できるといった特徴がある．本研究では，液体の中でも磁力によって容易に制御が可能な磁性流体に着目した．磁性流体とは，強磁性の粉末を分散させたコロイド溶液であり，強力な磁力を印加することでスパイク状に隆起する．このスパイク表現はメディアアート等で広く活用されており，強い存在感を持つ．そこで本研究では，磁性流体にオイルを混合させることで，棘のようなテクスチャを抑制し，なだらかな半球や余韻を表現して，スパイク表現と組み合わせて利用する．本稿では，スパイク表現となだらかな波紋表現を組み合わせた情報提示手法「RippleSpike」の提案，実装，性能評価，表現事例と応用例について述べる．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> 磁性流体にオイルを混合することで，スパイク現象に加え，なだらかな半球や余韻などの表現を実現している．有用性が不明瞭であるという指摘もあったが，新規システムが正確に実装されており，有用性についてはWISS参加者間で議論されるべきだという判定となった．ただし，提案手法の目的（課題感や目指すところ）が不明瞭となっている点は改善されるべきと考える．以上の理由から，採録（条件付き採録）と判断された．</p>
+          </div>
+        </div>
+        <hr>
+        <div class="jumbotron">
+          <h3>セッション5: エンターテインメント</h3>
+          <ul class="list-inline">
+            <li class="list-inline-item"><b>座長：</b>三上 浩司（東京工科大）</li>
+            <li class="list-inline-item"><b>チャット座長：</b>清木 昌（ほぼ日）</li>
+          </ul>
+        </div>
+        <h4>[15] ゲームを用いた自動点眼システムの実装と検討 <span class="badge "></span></h4>
+        <p class="authors">森谷 美羽(津田塾大学), 栗原 一貴(津田塾大学)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/15.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>目の乾燥や疲れなどがあった場合，目薬をさすことで緩和されることがある．しかし，点眼が苦手な人は一定数存在している．そこで本研究では，ゲームをしながら自動で点眼ができるシステムを提案する．本システムはobniz Board，それによって制御されるDCモータ駆動ポンプとボタン，スマートフォン上で使用するWebアプリケーション等で構成されている．本システムはゲームが持つプレイヤを引き込む特性を活かし，ゲームプレイ中に点眼することで被点眼者の心理的負荷の軽減を目指す．さらに，点眼のタイミングの異なる3つのゲームルールを用いたユーザスタディを行うことで，ゲーム中の点眼液の噴射がプレイヤに与える心理的影響を明らかにし，点眼の心理的負担を軽減するための方法や点眼のエンタテインメント化に関する検討を行った．その結果，ゲームルールによってプレイヤの感じる点眼の快・不快度合いが異なることと，ゲームを用いることで点眼への意識を逸らすことができる可能性が示唆された．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> ゲームが持つプレイヤーを引き込む特性を利用して，ゲームプレイ中に目が開いているタイミングをカメラ画像から検出し，点眼するシステムを実装している．このシステムを用いてゲーム内の状況と連動して「罰」「報酬」「妨害」の3つの異なるタイミングで噴射するゲームを実装し評価実験を行っている．実験の結果，一部有意な差が検出されており，WISSにおいて議論するに値する可能性があると考え条件付き採録と判定した．</p>
+          </div>
+        </div>
+        <h4>[16] オノマトペを用いた脳波制御訓練手法による魔法ゲームシステム <span class="badge "></span></h4>
+        <p class="authors">二瓶 朝渉(明治大学), 平野 怜旺(明治大学), 渡邊 恵太(明治大学)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/16.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>ブレインコンピュータインターフェイス（BCI）は，脳と外部機器の直接通信を可能にする技術である．脳波（EEG）ベースの非侵襲型BCIは，主に医療用途に利用されるが，ビデオゲームへの利用にも関心が高まっている．BCIを使ったビデオゲームは，プレイヤーに斬新で魅力的なモダリティを提供し，ゲームへの没入感を高める可能性がある．本研究では，オノマトペを用いた脳波制御訓練手法により，心的イメージで魔法を制御するビデオゲームを開発した．本システムでは，ユーザはBCIを装着し，魔法の視覚イメージとオノマトペを用いた発話イメージを同時に想起することで，魔法を操作することができる．本稿では，制御パフォーマンスとビデオゲームの体験の両方を評価することにより，本手法の有用性を検証した．その結果，本手法がBCI制御において一定の制御性能を示し，ビデオゲーム体験の向上に有用である可能性を示唆した．また，ゲームへの没入感や楽しさについても高い評価を得た．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> 本論文は，BCIを使用して魔法を発動する訓練をオノマトペで行うという前年のWISSのデモ発表のアイデアを元に，ゲームとして整えた上で，実験を行ったものである．実験の結果，多くの参加者は「魔法を使うという新しい体験を提供している」と感じており，特に，上手くなる過程が娯楽として面白いという反応をインタビューで得られていることが興味深い．BCIをゲームの入力に使う利点や，操作の上達を楽しめる条件など，幅広い議論を期待し，条件付き採録と判断された．</p>
+          </div>
+        </div>
+        <h4>[17] 参加者との協同を実現する言葉遊びアンケートシステム <span class="badge "></span></h4>
+        <p class="authors">西出 新也(神戸大学/関西学院千里国際中等部・高等部), 西岡 裕子(三菱総研ＤＣＳ株式会社), 福田 孝輔(三菱総研ＤＣＳ株式会社), 米沢 勝(三菱総研ＤＣＳ株式会社), 新井 美音(三菱総研ＤＣＳ株式会社), 西田 健志(神戸大学)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/17.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>本研究では，アンケート調査における回答率と回答品質の向上を目的とした新たなアプローチとして，回答者が出題者に役割転換する共同運営型アンケートシステムを提案する．従来のアンケートが抱える一方向的な構造を転換し，参加者の主体的な関与を促す設計を採用したプロトタイプの開発を行なった．提案システムの主要な特徴として，次の2点を導入した．(1)回答者が出題者として質問を作成できる機能．(2)言葉遊びを取り入れた回答形式．これらの特徴により，参加者のモチベーション向上と社会的望ましさバイアスの低減を図った．提案システムの試用結果から，従来のアンケートと比較して，回答内容から具体的な改善点の抽出には課題が残ったが，同時に，これまで得られにくかった率直な意見や感情を引き出していることが観察された．言葉遊びを用いた回答形式により，参加者の忖度や誇張につながる回答を抑制し，本音に近い情報を収集できることがわかった．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> 本研究は主催者と参加者が協力してアンケートを実施するために，言葉遊びを例題としてシステム実装したものである．実際に新入社員研修で使用した結果を報告している．アンケート（特定のテーマに関する情報収集）を実施することに対して，本手法がどのくらい有効であるのかについては今後も検証が必要であると思うが，総じてWISSコミュニティという実践の場で試しながら育てていくのが良いと考え，採録と判定する．</p>
+          </div>
+        </div>
+        <hr>
+        <div class="jumbotron">
+          <h3>セッション6: 支援</h3>
+          <ul class="list-inline">
+            <li class="list-inline-item"><b>座長：</b>越後 宏紀（ソフトバンク）</li>
+            <li class="list-inline-item"><b>チャット座長：</b>西田 健志（神戸大）</li>
+          </ul>
+        </div>
+        <h4>[18] InverseVis: 疎な領域へのサンプリング点生成による多次元データ中の「非存在」の可視化 <span class="badge "></span></h4>
+        <p class="authors">伊藤 貴之(お茶の水女子大学), 田上 湖都(お茶の水女子大学), 矢島知子(お茶の水女子大学), 李国政(北京理工大学)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/18.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>多次元データの可視化手法は非常にアクティブな話題であり，長年にわたって多くの手法が報告されている．その中でも散布図や平行座標プロットといった幾何学的な手法は，多次元データを構成する各個体を点や線で描くことにより，データ中の密な部位や外れ値が存在する部位を表現する．一方で時として我々は，多次元空間中の「個体が存在しない領域」に着目したいことがある．この要求を解決するために本報告では，多次元空間中の疎な部位に多数のサンプリング点を生成し，その点を可視化することで，個体が存在しない領域の分布を表現する手法を提案する．本手法では多次元空間の生成したサンプリング点に次元削減を適用して散布図で表示する．マウス操作によって特定の点を指定すると，平行座標プロットにより指定された点の各次元の値を表示する．本報告では，含フッ素有機化合物の反応実験データと，学術成績と給与のデータでのケーススタディをもって，提案手法の有効性を検証する．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> 本研究では，多次元データが疎な領域にサンプリング点を多く設定し，周辺にある既存データから得られる予測値と共に可視化して，点を選択することで追加すべきデータの性質を確認できる手法を提案している．存在しない点を可視化するというアプローチは興味深く，ドリルダウンのように詳細を確認していくインタラクションも含め，登壇発表で議論する価値があると考え採録と判断した．</p>
+          </div>
+        </div>
+        <h4>[19] ShowMe: 対話的な強調表示と拡大表示によるプレゼンテーションビデオの視覚的アクセシビリティの改善 <span class="badge "></span></h4>
+        <p class="authors">SECHAYK Yotam(東京大学), SHAMIR Ariel(Reichman University), 五十嵐 健夫(東京大学)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/19.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>プレゼンテーションビデオを使った学習は広く一般的に行われている．講師は，ビデオ作成過程で，さまざまな視覚的補助動作を活用することが多い．具体的には，プレゼンテーション中のポインティング，マーキング，スケッチなどが，視覚的補助動作としてよく使われる．しかし，これらの動作は視覚的に認識が難しいことが多く，説明が不十分であることが多い．弱視の学習者は，このような動作に追従するために，常にプレゼンテーションのフレーム内を探索する必要があり，フラストレーションと疲労につながっている．我々は，この問題を理解し解決するために，3人の弱視ユーザとユーザ参加型デザインを実施し，その結果にもとづき，講師の視覚的補助動作を強調表示し，拡大表示するツールShowMeを開発した．ShowMeは，弱視ユーザがプレゼンテーションをフォローできるように支援し，疲労とフラストレーションを軽減する．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> ユーザ参加型のデザインによって事前に問題点や課題を抽出しWISS2023で発表された先行研究から実装改良している点が評価されている．また，弱視者のユーザ参加型デザインは有益で，実際に実用的なユーザインタフェースの設計になっている点が評価されている．他方で、読みづらい文章が多々見られる点やユーザ体験が感想のみと見受けられ，そこから研究への考察・深掘りが不足している点が指摘されている．以上の理由から，条件付き採録と判断された．</p>
+          </div>
+        </div>
+        <h4>[20] サブセグメント分割に基づく3Dスキャンモデルのインタラクティブセグメンテーション <span class="badge "></span></h4>
+        <p class="authors">真殿 航輝(早稲田大学/Preferred Networks), 五十嵐 健夫(Preferred Networks), 加藤 大晴(Preferred Networks), 橋本 泰輔(Preferred Networks), Fabrice Matulic(Preferred Networks), 高木 士(Preferred Networks), 樋口 啓太(Preferred Networks)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/20.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>3Dスキャンモデルにおいてパーツ毎のテクスチャセグメンテーションは，モデルの再編集やマテリアル付与の目的で重要である．従来の手法では手動によるセグメンテーションが手間である一方，自動セグメンテーション技術ではユーザの意図通りに分割される保証がない．本研究では，自動セグメンテーションと最小限の手動操作を組み合わせたインタラクティブセグメンテーションツールを提案する．このツールは，前処理として3Dモデルを多視点から自動セグメンテーションすることでテクスチャをサブセグメントに分割し，実行時にユーザが3Dモデルビューで簡単な線描画でクラスタ化する事で，最終セグメンテーション結果を得る．評価の結果，本アプローチは手動セグメンテーションや標準的な3Dコンピュータグラフィックスソフトウェアに比べて精度と品質を向上させ，UVテクスチャマップの自動セグメンテーションに比べてより詳細なセグメントを生成できることが示された．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> 3Dモデルのセグメンテーションを複数視点からのテクスチャ上2Dセグメンテーションを利用しつつインタラクティブにおこなう手法を提案している. テクスチャ上で自動解析とユーザ操作をマージしていく手法は新規性があり，またデモされている内容も十分に納得感のある結果となっていており高く評価できる. 一方で，論文の記述の質に問題があり，また，インタラクティブな3Dのセグメンテーションに関する従来手法からの新規性がわかりにくい，という問題もあるため著者らにはカメラレディの前に修正を依頼し，条件付き採録とする.</p>
+          </div>
+        </div>
+        <h4>[21] PP-Checker: プログラミング教育における大規模言語モデルと協調した曖昧性のある自動採点システム <span class="badge "></span></h4>
+        <p class="authors">関口 祐豊(明治大学), 中村 聡史(明治大学)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/21.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>本論文では，プログラミング教育における採点業務の効率化を目指し，即時性，採点精度，曖昧性に焦点を当てた自動採点システムPP-Checkerを提案する．PP-Checkerは，大規模言語モデル（LLM）との協調により，動的かつ視覚的なプログラミング言語の自動採点を実現する．また，リアルタイムでプロンプトを調整できる機能を備えており，学生が課題に取り組んでいる間にも採点基準を更新し，結果をすぐに反映できる．実際の講義で計2400分運用した結果から，PP-Checkerは課題の再提出時間を平均3.6分まで短縮し，課題採点業務の効率化に貢献することが示された．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>採録時コメント</h5>
+            <p> 本研究は，入門的なプログラミング教育において受講生が犯しがちな初歩的なミスを，LLMによる自動採点システムでスクリーニングする手法を提案している．結果として，受講生は単純なミスについてはLLMの指摘で素早く修正することができ，また教員やTAはそのチェックを通過した提出物の採点に注力できるため，双方に有益なシステムになっている．120名以上が受講する1学期間の授業で運用した実績を含めて報告されており，採録に足る論文と判断した．</p>
+          </div>
+        </div>
+        <hr>
+        <div class="jumbotron">
+          <h3>セッション7: 国際学会招待発表</h3>
+          <ul class="list-inline">
+            <li class="list-inline-item"><b>座長：</b>寺田 努（神戸大）</li>
+            <li class="list-inline-item"><b>チャット座長：</b>宮藤 詩緒（東京科学大）</li>
+          </ul>
+        </div>
+        <h4>[22] FoodSkin: Fabricating Edible Gold Leaf Circuits on Food Surfaces <span class="badge "></span></h4>
+        <p class="authors">加藤 邦拓 (東京工科大学), 池松 香 (LINEヤフー), 中村 裕美 (東京都市大学), 須﨑 比奈子 (お茶の水女子大学), 五十嵐 悠紀 (お茶の水女子大学)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/22.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>本研究では食品表面に金箔回路を作成し，食品にインタラクティブな要素を追加する技術である FoodSkinを提案する．提案手法により，乾燥食品と回路を統合することで，電気味覚の提示やユーザの食事行動の推定といった機能を提供できる．評価実験として，金箔回路の耐久性，様々な性質の食品表面への金箔回路の適用性，および金箔回路の接着が元の食品の味・食感におよぼす影響について調査した．また，ワークショップを実施し，提案したファブリケーション手法のアクセシビリティについて評価を行った．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>国際学会・国際論文誌名</h5>
+            <p> CHI2024</p>
+          </div>
+        </div>
+        <h4>[23] LoopBot: Representing Continuous Haptics of Grounded Objects in Room-scale VR <span class="badge "></span></h4>
+        <p class="authors">池田 徹志 (東北大学 電気通信研究所), 藤田 和之 (東北大学 電気通信研究所), 小川 郡平 (東北大学 電気通信研究所), 髙嶋 和毅 (芝浦工業大学), 北村 喜文 (東北大学 電気通信研究所)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/23.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>ルームスケールVRでは，壁や手すりなど固定物の触覚フィードバックを連続的に提示することは，ユーザの歩行範囲の広さや必要とされる力の大きさの点で困難であった．本研究では，ユーザに追従する単一のロボットを用いて，歩行中に固定物の触覚フィードバックを連続的に提示する手法LoopBotを提案する．この手法では，ロボットに搭載した環状の触覚プロップがスクロールしてロボットの移動を相殺することで，プロップの固定感を提示する．我々は，LoopBotのコンセプトを実証するため，手すりを握りながら歩く体験のプロトタイプを実装した．予備ユーザテスト（N=10）では，スクロールしない場合に比べて，体験の現実感と手すりの固定感が有意に高いことが確認された．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>国際学会・国際論文誌名</h5>
+            <p> The ACM Symposium on User Interface Software and Technology (UIST) 2024</p>
+          </div>
+        </div>
+        <h4>[24] picoRing: battery-free rings for subtle thumb-to-index input <span class="badge "></span></h4>
+        <p class="authors">高橋 亮(東大), Eric Whitmire (Meta Inc. Reality Labs), Roger Boldu (Meta Inc. Reality Labs), Shiu Ng (Meta Inc. Reality Labs), Wolf Kienzle (Meta Inc. Reality Labs), Hrvoje Benko (Meta Inc. Reality Labs)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/24.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>スマートウォッチやスマートグラスなどの普及により，いつでもどこでも映像や情報にアクセスできるが，入力インタフェースは，大げさな手の動きが必要で未だ使いづらい．指輪型マウスは，人差し指に装着した指輪への，親指による微小なクリックとスクロール入力を検知できるため，最小限の労力で継続的に入力できる．しかし，指輪内の，消費電力の大きい無線通信モジュール（BLE）を連続駆動する必要があり，指輪用の小型電池では，定期的な充電が頻繁に必要になる．そこで，本研究では，指輪型マウスが無線通信できる距離を10 cm程度の近距離に限定するかわりに，無線通信の消費電力をほぼ０にする「パッシブインダクティブテレメトリ（PIT）」を活用して，電池レスの指輪型入力デバイスを開発した．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>国際学会・国際論文誌名</h5>
+            <p> ACM UIST</p>
+          </div>
+        </div>
+        <h4>[25] Designing Privacy-protecting System with Visual Masking based on Investigation of Privacy Concerns in Virtual Screen Sharing Environments <span class="badge "></span></h4>
+        <p class="authors">石田 瑞季 (お茶の水女子大学), 池松 香 (LINEヤフー株式会社), 五十嵐 悠紀 (お茶の水女子大学)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/25.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>オンライン会議で画面共有を行う際に，ユーザは誤って共有したくない情報を公開してしまうことがある．我々の調査からユーザは名前などの個人情報だけでなく，閲覧履歴などユーザの好みや過去の行動がわかる情報を共有したくないということがわかった．また，ユーザは会議前や会議中にプライバシー保護のための対策をしている一方で，誤って共有したくない情報を公開してしまった事例が多く報告された．本研究では画面上のユーザが共有したくないと感じる情報を自動で検出し，視覚的に保護するシステムScreenConcealerを提案する．我々は画面上の他者と共有したくない情報を検出する深層学習モデルを作成するために，データ収集実験を行った．作成したモデルを使用して，画面共有をしている際にリアルタイムで個人情報やプライベートな情報を保護するシステムを開発した．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>国際学会・国際論文誌名</h5>
+            <p> ACM ISS</p>
+          </div>
+        </div>
+        <hr>
+        <div class="jumbotron">
+          <h3>国際学会招待発表（デモ）</h3>
+        </div>
+        <h4>[26] Deliberate Maladjustment by Microorganisms: A Medium for Images or Luminous Bacteria <span class="badge "></span></h4>
+        <p class="authors">佐伯 拓海(九州大学), 増田 展大(九州大学), 城 一裕(九州大学)</p>
+        <div class="row">
+          <div class="col-md-4"><img class="img-fluid img-thumbnail representative" src="./assets/representatives/26.png"></div>
+          <div class="col-md-4">
+            <h5>要旨：</h5>
+            <p>本論文では，筆者らの制作した2つの作品A Medium for Images or Luminous Bacteriaと‘イ’ (1926) by BioLuminescent Bacteriaを通し，“わざと調整しない(deliberately maladjusted)”(Vasulka，1970) という言葉の新たな意義を，微生物による画像処理と結びつけることで明らかにする．“わざと調整しない”こととは，1970年代のビデオアートにおける，当時支配的なメディアであったテレビジョンに対する物理的な介入のもつ批評性を表した言葉である．これらとは対照的に，現代のコンピューターによる画像処理は，デジタル計算とディスプレイにうまく調整された(well-adjustedな)方法で，様々な視覚メディアをシミュレートし，操作する．著者たちは，生きた存在や微生物を用いた画像処理の歴史的過程を再考し，”わざと調整しない”作品の可能性の拡張を試みる．</p>
+          </div>
+          <div class="col-md-4">
+            <h5>国際学会・国際論文誌名</h5>
+            <p> Leonardo</p>
+          </div>
+        </div>
+        <hr>
+        <p> <small>著者の方へ：プログラムに記載された情報に誤りがある場合は，プログラム委員長 2024@wiss.org へ連絡をお願いします．</small></p>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-sm">
+            <h2>著者の方へ</h2>
+            <ul class="list-unstyled">
+              <li><a href="./call-for-papers.html">発表募集</a></li>
+              <li><a href="./cfp-oral.html">-　登壇発表募集</a></li>
+              <li><a href="./cfp-international.html">-　国際学会招待発表募集</a></li>
+              <li><a href="./cfp-demo.html">-　デモ発表募集</a></li>
+              <li><a href="./call-for-challenge.html">-　WISS Challenge募集</a></li>
+              <li><a href="./call-for-design.html">-　WISS Design募集</a></li>
+              <li><a href="./call-for-studentvolunteer.html">-　学生ボランティア募集</a></li>
+              <li><a href="./review-policy.html">査読方針</a></li>
+            </ul>
+          </div>
+          <div class="col-4 col-sm">
+            <h2>参加者の方へ</h2>
+            <ul class="list-unstyled">
+              <li><a href="./call-for-participants.html">参加募集</a></li>
+              <li><a href="./local.html">ローカル情報</a></li>
+            </ul>
+          </div>
+          <div class="col-4 col-sm">
+            <h2>プログラム</h2>
+            <ul class="list-unstyled">
+              <li><a href="./program.html">全体スケジュール・登壇発表</a></li>
+              <li><a href="./keynote.html">特別講演</a></li>
+              <li><a href="./demo.html">デモ発表</a></li>
+              <li><a href="./challenge.html">WISS Challenge</a></li>
+              <li><a href="./for-presenter.html">発表者の方へ</a></li>
+            </ul>
+          </div>
+          <div class="col-4 col-sm">
+            <h2>動画中継</h2>
+            <ul class="list-unstyled">
+              <li><a href="./live.html">中継リンク</a></li>
+            </ul>
+          </div>
+          <div class="col-4 col-sm">
+            <h2>スポンサーの方へ</h2>
+            <ul class="list-unstyled">
+              <li><a href="./call-for-sponsor.html">企業スポンサー募集</a></li>
+            </ul>
+          </div>
+          <div class="col-4 col-sm">
+            <h2>予稿集</h2>
+            <ul class="list-unstyled">
+              <li><a href="proceedings.html">Web予稿集・電子予稿集</a></li>
+            </ul>
+          </div>
+          <div class="col-4 col-sm">
+            <h2>WISSについて</h2>
+            <ul class="list-unstyled">
+              <li><a href="./committee.html">WISS委員一覧</a></li>
+              <li><a href="https://twitter.com/wiss_official">公式X</a></li>
+              <li><a href="./attending-policy.html">各種ポリシー</a></li>
+              <li><a href="./archive.html">過去のWISS</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <p class="text-center">&copy; WISS 2024実行委員会</p>
+        <p class="text-center">Contribute to this page on <a href="https://github.com/WISSOrg/web2024">GitHub</a> (PRs welcome).</p>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
