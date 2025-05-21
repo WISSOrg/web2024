@@ -3,7 +3,6 @@ const gulp = require("gulp");
 const copy = require("gulp-copy");
 const data = require('gulp-data');
 const pug = require("gulp-pug");
-//const sass = require("gulp-sass");
 const sass = require('gulp-sass')(require('sass'));
 const yaml = require("js-yaml")
 const csvParse = require('csv-parse/sync').parse;
